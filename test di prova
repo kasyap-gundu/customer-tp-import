@@ -1,0 +1,296 @@
+id: VP0PJNr9RkujzAe9Scuovw
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2023-02-13T08:41:46.7458817Z
+protocol: 1
+tests:
+- id: Sn8he7YHA0OwAFX4pLmqFA
+  name: test di prova
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2023-02-09T08:46:42.0000000
+  modificationDate: 2023-02-13T08:41:26.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: _WPDwzx-WEu9sEQ1q81hmQ
+    name: Login SFA
+    url: https://safilo--uat.sandbox.lightning.force.com/
+    platform: Web
+  steps:
+  - id: QybxtW7FS0WdCllqXZ3jcQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: yjQm9_eOTkK9uLCiMabJrQ
+    comments: This step was auto generated from several steps
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Test
+    targetTestId: geycGffZfEisEcbqDxTKcA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: I78eXK4RZUqJYWEOM3l4Dw
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 0MRmvzEI10-YFpRjRgB7wg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://safilo--uat.sandbox.lightning.force.com/
+    type: Input
+auxTests:
+- id: geycGffZfEisEcbqDxTKcA
+  name: prova gruppo di test
+  description: This test was auto generated from steps of the 'test di prova' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2023-02-09T09:00:27.0000000
+  modificationDate: 2023-02-09T09:00:27.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: k_7WEGQl0kCj3Cm91uM5vw
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 5e7Piagc70mDkaXWOIxwbg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ruZxcfRTK0WXQwxlPRdYyA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: b7I1WsP2nEy5cX8ZuPDeFQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bsT1BzEzWkWcQnuMyS8AeA
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: DWjFY3A7ikiTfy8WE_C1bg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FwrcBGmjQUKFWUqwIBMG3Q
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: DWjFY3A7ikiTfy8WE_C1bg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: username
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dPdEeNJTAUelCPXPkh8lyw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 0MRmvzEI10-YFpRjRgB7wg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+elements:
+- id: DWjFY3A7ikiTfy8WE_C1bg
+  name: username
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#username'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='username']"
+    priority: 1
+  - name: XPATH
+    value: //div[1]/div/input[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/div[1]/div/input[1]
+    priority: 3
+- id: 0MRmvzEI10-YFpRjRgB7wg
+  name: pw
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#passw'
+    priority: 3
+  - name: CSSSELECTOR
+    value: "[name='p']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]/form/inpu
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div/div/div[2]/div[3]/form
+    priority: 0
+- id: 5e7Piagc70mDkaXWOIxwbg
+  name: main
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#main'
+    priority: 0
+  - name: XPATH
+    value: //body/div[1]/div/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div
+    priority: 2
+- id: b7I1WsP2nEy5cX8ZuPDeFQ
+  name: logo
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#logo'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='logo']"
+    priority: 1
+  - name: XPATH
+    value: //div/div/div/div[1]/div/img
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div/div/div[1]/div/img
+    priority: 3
+projectParameters: []
+addons: []

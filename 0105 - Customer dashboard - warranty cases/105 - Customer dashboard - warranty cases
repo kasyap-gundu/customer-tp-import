@@ -1,0 +1,1265 @@
+id: --s2nlL0FkqNg-f8PjpC4A
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2022-09-07T09:45:38.1999938Z
+protocol: 1
+tests:
+- id: BbvD4b7GEkW2upT6lGX-Gw
+  name: 105 - Customer dashboard - warranty cases
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-07-14T11:45:43.0000000
+  modificationDate: 2022-09-07T09:45:38.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: _WPDwzx-WEu9sEQ1q81hmQ
+    name: Login SFA
+    url: https://safilo--uat.lightning.force.com/
+    platform: Web
+  steps:
+  - id: hJW2QSwn8kaTc6FuEa2p7A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Test
+    targetTestId: RQBs_ySpCU-9v2zn2FzvoQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: AwxNjTQfgE6CpAaBJiY_Sg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: AR2tc7MdJE6zsMUDBp3tjA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Brnlr417v0qTI1pnxhpXDQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: AR2tc7MdJE6zsMUDBp3tjA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lEPf4ibGZEmp-h_4ONcJNw
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: FGQRtDM1K0aWPW2sq0pNDg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QxNDMeNVw0CtsFxJWVaGiw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
+      source: System
+    parameterMaps:
+    - name: index
+      value: 2
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: A1keW-9Lok6xWW8vqXR7TA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: gv9NkBsENUu10TMwnMqvnA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://safilo--uat.lightning.force.com/
+    type: Input
+  tags:
+  - CUSTOMER
+auxTests:
+- id: RQBs_ySpCU-9v2zn2FzvoQ
+  name: 0045_Account selection - from header menù
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-06-30T10:54:06.0000000
+  modificationDate: 2022-09-07T08:59:28.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: GPjZdd_xrkK-h1P84AiZDw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Test
+    targetTestId: GPZTPXsPrU28pGfSK5cA-A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gyT7mJlp-USiFM53A4PdDw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Test
+    targetTestId: L7IXl9oq8UOEkPO5U_eD0A
+    settings:
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FVqCTatCAEyhwcYUEvi8aA
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: zeMkOvh9zkW-jbDGS9Vt3g
+    settings:
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ubbeBPWRU0uTua0N-oLRxg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 55qEm-K1JU6vkbU_z75mLg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: y8uQrtEtdkqlpsT-O3zk5g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: cV4FejPs60GXCM7YUPHn_g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Account
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 175ezqyewEG1art6lAMUPQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: zxQJL8xk4ECrVFAUOINoug
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: A PRIMA VISTA DI MAURIZI CLAUDIO
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://safilo--uat.lightning.force.com/
+    type: Input
+  tags:
+  - ACCOUNTS
+- id: GPZTPXsPrU28pGfSK5cA-A
+  name: 0.2 - Login SFA
+  description: Used by all tests
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-06-30T08:09:08.0000000
+  modificationDate: 2022-08-29T04:43:07.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: OK9h7PGpIUa76yPlCCsXSQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: E-IpSF9uRU6kCcluHezsDg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: wy9sazBV0EWYepqpcPlDlQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: eVSuZs1MX0Sm2FRMcGZS5g
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: wy9sazBV0EWYepqpcPlDlQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: wellnet.safilo.one+sr_it01@gmail.com.sfa
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4PDHUa4Xl06627MXSqLzyQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: XU2cdW6O8EiwecdDoMiZYQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: AyYQWGT5IEScbHsmajNQWA
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: XU2cdW6O8EiwecdDoMiZYQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: SafNewProject2022!-3
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5pfLrcBkiE6rmX8EM_48RA
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: QzsfZ8r0OEaqdHT6pLX4cA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fy7BDc2oT0eRmrYVVEtJTg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: NpfgU8jAG06hFpu7NS4wUA
+      source: Store
+      addonId: 775wVW80X0u_jcJi9jfJxw
+    parameterMaps:
+    - name: URL
+      value: https://mail.tm/en/
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: l9p93mp-kE62vFf8mJ8dMA
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
+      source: System
+    parameterMaps:
+    - name: index
+      value: 1
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ohShfTNQMU-LQbgCaYRlxg
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: https://mail.tm/en/
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KLS-zckJAEmUfvEuzl0wjg
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: WUH-FauAx0iFjBf7W_R1hQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9BVhMwjP40e9UvCh8_npOg
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: TrC7H9gHZ0uDRElblrIu2g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3qo8RD60g0Wlbp_DUhLQ3A
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: _qzdTN9wE02LhvJdSZ7vBg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0im2ZSo8M0mux1bfHY6REA
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: pjCVRwj7-UeOXF0jfB0Viw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: IRhaCI5TekSXtT3NftRkhw
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: pjCVRwj7-UeOXF0jfB0Viw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: safilo@scpulse.com
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NsSpg_6t70aNzdaY0cKmyg
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: 43lHrucJ2kaWJRDjeFNBrw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: TRrU-hOZ4EOPhUEzVUOEYQ
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: 43lHrucJ2kaWJRDjeFNBrw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ohL0aiba
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: LR2s-nvpKkG5koK8uH-xRA
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: sX1nJfoBvEWTz9lfAWb07A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HLktMlYN6UaLz44rLILQFA
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: 2vti9vDNdkmDrweAbG85bQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4tAzrcjwFU2gNz7YxMFV9A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Addon
+    elementId: sAIhlGl0xkStdxxnrzVjRw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: _eKo7zbUNEaI9yCeGICBnw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: output
+      value: '[[VerifCodeTM]]'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@id = 'iFrameResizer0']|/html/body/div[1]/div/div/div[2]/main/div/div[3]/div[2]/div/iframe
+  - id: 6OJVFgBrwUCaS_jkvl4CMw
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
+      source: System
+    parameterMaps:
+    - name: index
+      value: 0
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dVCSbz5iYkuBPy-gxzsFmw
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: 6MIo5lKVn0magXx4qXAfHQ
+    settings:
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: isG7eeABEESebyJM5S_d1A
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: 6MIo5lKVn0magXx4qXAfHQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[VerifCodeTM]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: c4GD_zuuJkGv1KdkrWpEvQ
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: 8dwHCTcFbkydpwMhJqpIyQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://safilo--uat.lightning.force.com/
+    type: Input
+- id: L7IXl9oq8UOEkPO5U_eD0A
+  name: 0.4 - Set window size 1920*1080
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-07-07T06:32:19.0000000
+  modificationDate: 2022-07-07T06:36:09.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: Y7iMvvJz5UqWJ2jvbEIFng
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 7dUz-B_UEEyf3F5EVJ9dXA
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: width
+      value: 1980
+      direction: Input
+    - name: height
+      value: 1080
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://safilo--uat.lightning.force.com/
+    type: Input
+elements:
+- id: wy9sazBV0EWYepqpcPlDlQ
+  name: username
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#username'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='username']"
+    priority: 1
+  - name: XPATH
+    value: //div[1]/div/input[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/div[1]/div/input[1]
+    priority: 3
+- id: XU2cdW6O8EiwecdDoMiZYQ
+  name: pw
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='pw']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]/form/input[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/input[1]
+    priority: 3
+- id: QzsfZ8r0OEaqdHT6pLX4cA
+  name: Login
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/input[2]
+    priority: 3
+  - name: CSSSELECTOR
+    value: '#Login'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='Login']"
+    priority: 1
+  - name: XPATH
+    value: //form/input[2]
+    priority: 2
+- id: TrC7H9gHZ0uDRElblrIu2g
+  name: IMG
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[2]/div/div/div[2]/div[4]/div/button/img
+    priority: 1
+  - name: XPATH
+    value: //button/img
+    priority: 0
+- id: _qzdTN9wE02LhvJdSZ7vBg
+  name: Login1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div[4]/a
+    priority: 1
+  - name: XPATH
+    value: >-
+      //a[. = '
+                  Login
+                ']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[2]/div/div/div[2]/div[4]/div[3]/div/div[4]/a
+    priority: 2
+- id: pjCVRwj7-UeOXF0jfB0Viw
+  name: Email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@placeholder = 'Email']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/span//input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/span/form/div[1]/span/div/input
+    priority: 2
+- id: 43lHrucJ2kaWJRDjeFNBrw
+  name: Password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/span/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/span/form/div[2]/span/div/input
+    priority: 3
+- id: sX1nJfoBvEWTz9lfAWb07A
+  name: Login2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[1]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[3]/div/div[2]/div[2]/span[1]/button
+    priority: 2
+  - name: XPATH
+    value: >-
+      //button[. = '
+              Login
+            ']
+    priority: 0
+- id: 2vti9vDNdkmDrweAbG85bQ
+  name: noreply@salesforce.com1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[1]//span[. = 'noreply@salesforce.com']
+    priority: 0
+  - name: XPATH
+    value: //li[1]/a/div/div[1]/div[2]//span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[2]/main/div/div[2]/ul/li[1]/a/div/div[1]/div[2]/div[1]/div[2]/span
+    priority: 2
+- id: sAIhlGl0xkStdxxnrzVjRw
+  name: 'Verification Code: 669725'
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTM
+    name: Paragraph
+    source: System
+  locators:
+  - name: XPATH
+    value: //p[4]
+    priority: 0
+  - name: XPATH
+    value: /html/body/p[4]
+    priority: 1
+- id: 6MIo5lKVn0magXx4qXAfHQ
+  name: emc
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/input
+    priority: 2
+  - name: CSSSELECTOR
+    value: '#emc'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='emc']"
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[2]/form/div[1]/input
+    priority: 3
+- id: 8dwHCTcFbkydpwMhJqpIyQ
+  name: save
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#save'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='save']"
+    priority: 1
+  - name: XPATH
+    value: //input[10]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[2]/form/input[10]
+    priority: 3
+- id: 55qEm-K1JU6vkbU_z75mLg
+  name: A PRIMA VISTA DI MAURIZI CLAUDIO
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[1]/div/div/div/div/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/table/tbody/tr[1]/th/span/a
+    priority: 2
+  - name: XPATH
+    value: //tr[1]/th/span/a
+    priority: 1
+  - name: XPATH
+    value: //a[. = 'A PRIMA VISTA DI MAURIZI CLAUDIO']
+    priority: 0
+- id: zeMkOvh9zkW-jbDGS9Vt3g
+  name: Accounts
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //one-app-nav-bar-item-root[2]/a/span
+    priority: 1
+  - name: XPATH
+    value: //span[. = 'Accounts']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[1]/one-appnav/div/one-app-nav-bar/nav/div/one-app-nav-bar-item-root[2]/a/span
+    priority: 2
+- id: zxQJL8xk4ECrVFAUOINoug
+  name: A PRIMA VISTA DI MAURIZI CLAUDIO1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/lightning-formatted-text
+    priority: 1
+  - name: XPATH
+    value: //div/lightning-formatted-text[. = 'A PRIMA VISTA DI MAURIZI CLAUDIO']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[2]/div/one-record-home-flexipage2/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-record-page___-s-f-a_-account-record-page___-account___-v-i-e-w']/*[name()='forcegenerated-flexipage_sfa_accountrecordpage_account__view_js']/*[name()='record_flexipage-record-page-decorator']/div[1]/records-record-layout-event-broker/slot/slot/flexipage-record-home-left-sidebar-template-desktop2/div/div[1]/slot/flexipage-component2/slot/records-lwc-highlights-panel/records-lwc-record-layout/*[name()='forcegenerated-highlightspanel_account___0125j000000pdchqa0___compact___view___recordlayout2']/records-highlights2/div[1]/div[1]/div[1]/div[2]/h1/slot/sfa-output-name-with-hierarchy-icon-account/sfa-output-name-with-hierarchy-icon-wrapper/force-aura-action-wrapper/div/div/lightning-formatted-text
+    priority: 2
+- id: cV4FejPs60GXCM7YUPHn_g
+  name: Account
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[2]/div/one-record-home-flexipage2/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-record-page___-s-f-a_-account-record-page___-account___-v-i-e-w']/*[name()='forcegenerated-flexipage_sfa_accountrecordpage_account__view_js']/*[name()='record_flexipage-record-page-decorator']/div[1]/records-record-layout-event-broker/slot/slot/flexipage-record-home-left-sidebar-template-desktop2/div/div[1]/slot/flexipage-component2/slot/records-lwc-highlights-panel/records-lwc-record-layout/*[name()='forcegenerated-highlightspanel_account___0125j000000pdchqa0___compact___view___recordlayout2']/records-highlights2/div[1]/div[1]/div[1]/div[2]/h1/div
+    priority: 2
+  - name: XPATH
+    value: //h1/div
+    priority: 1
+  - name: XPATH
+    value: //div[. = 'Account']
+    priority: 0
+- id: AR2tc7MdJE6zsMUDBp3tjA
+  name: ARTICLE4
+  type:
+    id: jUwODgyNjAyNzk2NTk1NzM
+    name: article
+    source: System
+  locators:
+  - name: XPATH
+    value: //flexipage-component2[4]//article
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[2]/div/one-record-home-flexipage2/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-record-page___-s-f-a_-account-record-page___-account___-v-i-e-w']/*[name()='forcegenerated-flexipage_sfa_accountrecordpage_account__view_js']/*[name()='record_flexipage-record-page-decorator']/div[1]/records-record-layout-event-broker/slot/slot/flexipage-record-home-left-sidebar-template-desktop2/div/div[2]/div[1]/slot/flexipage-component2[4]/slot/flexipage-aura-wrapper/div/div/div/div/div/article
+    priority: 1
+- id: FGQRtDM1K0aWPW2sq0pNDg
+  name: View All3
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //flexipage-component2[4]//a[. = 'View All']
+    priority: 0
+  - name: XPATH
+    value: //flexipage-component2[4]/slot/flexipage-aura-wrapper/div/div/div/div/div/article/div/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[2]/div/one-record-home-flexipage2/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-record-page___-s-f-a_-account-record-page___-account___-v-i-e-w']/*[name()='forcegenerated-flexipage_sfa_accountrecordpage_account__view_js']/*[name()='record_flexipage-record-page-decorator']/div[1]/records-record-layout-event-broker/slot/slot/flexipage-record-home-left-sidebar-template-desktop2/div/div[2]/div[1]/slot/flexipage-component2[4]/slot/flexipage-aura-wrapper/div/div/div/div/div/article/div[3]/a
+    priority: 2
+- id: gv9NkBsENUu10TMwnMqvnA
+  name: Warranty Cases
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h2[. = 'Warranty  Cases ']
+    priority: 0
+  - name: XPATH
+    value: //header/div[2]/h2
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div/div/div/div/div/article/div[1]/header/div[2]/h2
+    priority: 2
+- id: WUH-FauAx0iFjBf7W_R1hQ
+  name: AGREE
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'AGREE']
+    priority: 0
+  - name: XPATH
+    value: //button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/div[2]/div/button[3]
+    priority: 2
+projectParameters:
+- id: r2apq3ZV1EuZHWhOR44vSg
+  name: VerifCodeTM
+  description: ''
+  value: 297692
+addons:
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.1.9
+  actions:
+  - id: _eKo7zbUNEaI9yCeGICBnw
+    name: Get Numbers Only
+    description: Return only numbers from the text
+    className: io.testproject.addons.web.element.GetNumbersOnly
+  - id: 7dUz-B_UEEyf3F5EVJ9dXA
+    name: Set window size
+    description: Set window size to ({{width}},{{height}})
+    className: io.testproject.addons.web.window.SetWindowSize
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
+- id: 775wVW80X0u_jcJi9jfJxw
+  source: Store
+  version: 0.6
+  actions:
+  - id: NpfgU8jAG06hFpu7NS4wUA
+    name: Open URL in New Tab
+    description: Open a URL in a new tab
+    className: NewTabAtURL
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: F31625A0D5FB4DA99C55BAE170047D94F81D08AC0EA8623AF682C4E335FAA18B

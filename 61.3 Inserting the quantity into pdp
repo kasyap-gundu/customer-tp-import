@@ -1,0 +1,202 @@
+id: 8YaCteidL0KtTjWyA9_wJQ
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2022-07-12T16:31:03.8393434Z
+protocol: 1
+tests:
+- id: uKOr3xL_fk6ACAv7B4dlrg
+  name: 61.3 Inserting the quantity into pdp
+  description: This test was auto generated from steps of the '59 - Checkout - simple checkout' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-07-06T07:34:07.0000000
+  modificationDate: 2022-07-12T16:31:03.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: _WPDwzx-WEu9sEQ1q81hmQ
+    name: Login SFA
+    url: https://safilo--uat.lightning.force.com/
+    platform: Web
+  steps:
+  - id: Y5p0NSia90K51bvNAbwH3w
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 869
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 10AghwlRKkqObEbvv6LDFA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: -84
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tcMOTnqnE0Gja-nacTd8kg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: lEgHARetwkidaHt2HjvjAg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JDbzz34bf0ywXv4h7GzVJQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: gRlZfHd0ZUSaTPFOPA2oJQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1yZ7WClOX0qX2GnBwjj_NA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: gRlZfHd0ZUSaTPFOPA2oJQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WD6ammrQI0qwCpWQWwCOLw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: gRlZfHd0ZUSaTPFOPA2oJQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[QUANTITY]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: gRlZfHd0ZUSaTPFOPA2oJQ
+  name: INPUT2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/*[name()='c-sfa_pdp-variant-detail-row']//input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_product-display-view']/lightning-card[2]/article/div[2]/slot/lightning-layout/slot/lightning-layout-item[2]/slot/*[name()='c-sfa_pdp-variant-detail']/div[2]/*[name()='c-sfa_pdp-variant-detail-row']/lightning-layout/slot/lightning-layout-item/slot/lightning-layout/slot/lightning-layout-item[2]/slot/lightning-layout/slot/div/lightning-layout-item/slot/lightning-layout/slot/lightning-layout-item[2]/slot/lightning-layout-item/slot/lightning-layout[2]/slot/lightning-layout-item[6]/slot/*[name()='c-sfa_quantity-counter']/div/input
+    priority: 1
+- id: lEgHARetwkidaHt2HjvjAg
+  name: 63.2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/*[name()='c-sfa_pdp-variant-detail-row']/lightning-layout/slot/lightning-layout-item/slot/lightning-layout/slot/lightning-layout-item[2]/slot/lightning-layout/slot/div/lightning-layout-item/slot/lightning-layout/slot/lightning-layout-item[2]/slot/lightning-layout-item/slot/lightning-layout[1]/slot/lightning-layout-item[5]/slot/div/div/div[. = '63.2']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/*[name()='c-sfa_pdp-variant-detail-row']/lightning-layout/slot/lightning-layout-item/slot/lightning-layout/slot/lightning-layout-item[2]/slot/lightning-layout/slot/div/lightning-layout-item/slot/lightning-layout/slot/lightning-layout-item[2]/slot/lightning-layout-item/slot/lightning-layout[1]/slot/lightning-layout-item[5]/slot/div/div/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_product-display-view']/lightning-card[2]/article/div[2]/slot/lightning-layout/slot/lightning-layout-item[2]/slot/*[name()='c-sfa_pdp-variant-detail']/div[2]/*[name()='c-sfa_pdp-variant-detail-row']/lightning-layout/slot/lightning-layout-item/slot/lightning-layout/slot/lightning-layout-item[2]/slot/lightning-layout/slot/div/lightning-layout-item/slot/lightning-layout/slot/lightning-layout-item[2]/slot/lightning-layout-item/slot/lightning-layout[1]/slot/lightning-layout-item[5]/slot/div/div/div
+    priority: 2
+projectParameters:
+- id: nwZ6MYzyx0WI__nCpHBpIQ
+  name: QUANTITY
+  description: ''
+  value: 2
+addons: []

@@ -1,0 +1,92 @@
+id: zuIW0ZF2O0-9-sOAuQbIqA
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2022-07-07T06:04:55.7176398Z
+protocol: 1
+tests:
+- id: 6VTQ44gimE-naoobJosDCg
+  name: 46.1 - Checking that the filter button is unselected
+  description: For test 46
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-07-07T05:15:28.0000000
+  modificationDate: 2022-07-07T06:04:54.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: _WPDwzx-WEu9sEQ1q81hmQ
+    name: Login SFA
+    url: https://safilo--uat.lightning.force.com/
+    platform: Web
+  steps:
+  - id: Xff97Z-s6EmM8v_o-gk1Cg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: X3m4Z5jHKUOThVlIIG8A2w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: cUiLDb72l0WO7tkF9UG7mA
+    comments: ''
+    enabled: true
+    invertResult: true
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: X3m4Z5jHKUOThVlIIG8A2w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 2c399e26-8d02-41a7-a8d4-acfeda14fb5b
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: X3m4Z5jHKUOThVlIIG8A2w
+  name: Open filters
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/lightning-button/button
+    priority: 1
+  - name: XPATH
+    value: //button[. = 'Open filters']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/*[name()='c-sfa_-p-l-p-header']/div/div[1]/div[2]/div/div[4]/lightning-button/button
+    priority: 2
+projectParameters: []
+addons: []

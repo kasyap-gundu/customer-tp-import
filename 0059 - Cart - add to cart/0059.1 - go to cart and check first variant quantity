@@ -1,0 +1,202 @@
+id: U8fDKdJmskG_mZqD0_GnOg
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2023-02-01T16:41:01.5727394Z
+protocol: 1
+tests:
+- id: 15rhutx3J0SoPOmlVy81vg
+  name: 0059.1 - go to cart and check first variant quantity
+  description: This test was auto generated from steps of the '0059_Cart - add to cart' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2023-02-01T16:24:38.0000000
+  modificationDate: 2023-02-01T16:41:00.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: _WPDwzx-WEu9sEQ1q81hmQ
+    name: Login SFA
+    url: https://safilo--uat.sandbox.lightning.force.com/
+    platform: Web
+  steps:
+  - id: bRfkrrSQZUSGOPS7DlVTXQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: J_9Gz56BREqzEDIULqpGJg
+    settings:
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7EwMcARmBEaO_r4AJXgj_Q
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: y
+      value: -346
+      direction: Input
+    - name: x
+      value: 0
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QatMNWT5QEKAMKWk5jzihA
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: FIRCQoDpT0W4pRIWsuWHDA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fcuQqVV74UGAh8WaRybFYw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 34SdTfVcYEeWOPJpLzce-A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Quantity
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: mZXuAilbl026mTL2OapB6g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: krqw_Vq1SUuwaW5UrMmHLw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[QUANTITY]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: J_9Gz56BREqzEDIULqpGJg
+  name: Update cart button
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/div/div[2]/lightning-button/button
+    priority: 0
+  - name: XPATH
+    value: //div/lightning-button/button[. = 'Update cart']
+    priority: 1
+- id: FIRCQoDpT0W4pRIWsuWHDA
+  name: Cart items button utility bar
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[2]/div/div//span
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[2]/div[1]/div[5]/ul/li[2]/div/div/button/span
+    priority: 1
+- id: 34SdTfVcYEeWOPJpLzce-A
+  name: Quantity
+  type:
+    id: jUwODgyNjAyNzk2NTk2MzU
+    name: label
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_cart-component_content']/article/div[3]/*[name()='c-sfa_cart-component_grouped-cart-item'][1]/div/lightning-layout/slot/lightning-layout-item[3]/slot/*[name()='c-sfa_cart-component_cart-item']/lightning-layout/slot/div[1]/div[8]/div/label
+    priority: 2
+  - name: XPATH
+    value: //*[name()='c-sfa_cart-component_grouped-cart-item'][1]/div/lightning-layout/slot/lightning-layout-item[3]/slot/*[name()='c-sfa_cart-component_cart-item']/lightning-layout/slot/div[1]/div[8]//label
+    priority: 1
+  - name: XPATH
+    value: //*[name()='c-sfa_cart-component_grouped-cart-item'][1]//label[. = 'Quantity']
+    priority: 0
+- id: krqw_Vq1SUuwaW5UrMmHLw
+  name: FIRST PRODUCT IN CART QUANTITY
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[9]/div/div/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_cart-component_content']/article/div[2]/*[name()='c-sfa_cart-component_grouped-cart-item']/div/lightning-layout/slot/lightning-layout-item[3]/slot/*[name()='c-sfa_cart-component_cart-item']/lightning-layout/slot/div[1]/div[9]/div/div/input
+    priority: 1
+projectParameters: []
+addons: []

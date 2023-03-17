@@ -1,0 +1,142 @@
+id: 38CwXD-qGUaVsJ4ctleBCg
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2022-07-07T07:30:24.2707117Z
+protocol: 1
+tests:
+- id: GUJiWEYTmkqVtMwvnNoZiQ
+  name: 48.1 - Reaching Dummy Customer catalog page
+  description: Used for test 48
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-07-07T07:15:16.0000000
+  modificationDate: 2022-07-07T07:30:22.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: _WPDwzx-WEu9sEQ1q81hmQ
+    name: Login SFA
+    url: https://safilo--uat.lightning.force.com/
+    platform: Web
+  steps:
+  - id: t4a6MAnQFkG7oLb58qBjXQ
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: QDJBBEcxFkOQxRj6xEReOw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Wzd7i8DzdEa4xzXeq1wvVA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: gl_uAPyUrUuZyNKSX4E_3w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: v1q7noQCRE-rEcjuACiT4g
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: a8m94M8EsUGAQD4LwihhJg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: a8m94M8EsUGAQD4LwihhJg
+  name: Navigate Catalog
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[2]/div/one-record-home-flexipage2/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-record-page___-s-f-a_-account-record-page___-account___-v-i-e-w']/*[name()='forcegenerated-flexipage_sfa_accountrecordpage_account__view_js']/*[name()='record_flexipage-record-page-decorator']/div[1]/records-record-layout-event-broker/slot/slot/flexipage-record-home-left-sidebar-template-desktop2/div/div[1]/slot/flexipage-component2/slot/records-lwc-highlights-panel/records-lwc-record-layout/*[name()='forcegenerated-highlightspanel_account___0125j000000pdchqa0___compact___view___recordlayout2']/records-highlights2/div[1]/div[1]/div[3]/div/*[name()='runtime_platform_actions-actions-ribbon']/ul/li[1]/*[name()='runtime_platform_actions-action-renderer']/*[name()='runtime_platform_actions-executor-page-reference']/slot/slot/lightning-button/button
+    priority: 2
+  - name: XPATH
+    value: //li[1]/*[name()='runtime_platform_actions-action-renderer']//button
+    priority: 1
+  - name: XPATH
+    value: //button[. = 'Navigate Catalog']
+    priority: 0
+- id: QDJBBEcxFkOQxRj6xEReOw
+  name: Accounts1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Accounts']
+    priority: 0
+  - name: XPATH
+    value: //one-app-nav-bar-item-root[2]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[1]/one-appnav/div/one-app-nav-bar/nav/div/one-app-nav-bar-item-root[2]/a
+    priority: 2
+- id: gl_uAPyUrUuZyNKSX4E_3w
+  name: DUMMY CUSTOMER
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'DUMMY CUSTOMER']
+    priority: 0
+  - name: XPATH
+    value: //tr[2]/th//a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[1]/div/div/div/div/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/table/tbody/tr[2]/th/span/a
+    priority: 2
+projectParameters: []
+addons: []

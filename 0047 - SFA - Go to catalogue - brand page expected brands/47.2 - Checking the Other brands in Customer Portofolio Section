@@ -1,0 +1,376 @@
+id: qRSCJpaZUEasiW-P2ASXzA
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2023-01-29T14:31:37.6166250Z
+protocol: 1
+tests:
+- id: iM3oXozMUEitBGww_3NErw
+  name: 47.2 - Checking the Other brands in Customer Portofolio Section
+  description: Used for test 47
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-07-07T05:42:48.0000000
+  modificationDate: 2023-01-29T14:29:28.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: _WPDwzx-WEu9sEQ1q81hmQ
+    name: Login SFA
+    url: https://safilo--uat.sandbox.lightning.force.com/
+    platform: Web
+  steps:
+  - id: gBaO0Ytih0-m56PonR48mg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: lFqPlb5m70K_v5QNmnPFAg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2xwahd4wKUK3oLWKq1mxcg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: mztzmWro5E2bzZeMF5CBiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[FOSSIL_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qF-4W8jn8EuMXNTyKij1jA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: mztzmWro5E2bzZeMF5CBiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[CARRERA_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: B1nWnfukH0ehSjVa8H5fGA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: mztzmWro5E2bzZeMF5CBiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[JUICYCOUTURE_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SszoBakES0WssaRy6ypXQw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: mztzmWro5E2bzZeMF5CBiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[LOVEMOSCHINO_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: w2VPmHDQCU2I4SuD0HEVCg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: mztzmWro5E2bzZeMF5CBiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[MOSCHINO_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZPhWVaC6_UeG9SyioinvvQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: mztzmWro5E2bzZeMF5CBiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[POLAROID_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GsgYyprVs0KTZwPxqmNYCA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: mztzmWro5E2bzZeMF5CBiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[DUMMY_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MBQfaKlMVEyIrNbYMrG6Qg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: mztzmWro5E2bzZeMF5CBiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[HAVAIANAS_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: O3MFpBmffkO-ZHbj7a38FQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: mztzmWro5E2bzZeMF5CBiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[KATESPADE_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: glafYlNUaEqF7NwmQ-FCSA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: mztzmWro5E2bzZeMF5CBiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[MARCJACOBS_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: e6uWjJtcpk6ZnCBONv0xUg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: mztzmWro5E2bzZeMF5CBiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[PIERRECARDIN_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5dWyP_j8Ok-ZXeNIBK6qbg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: mztzmWro5E2bzZeMF5CBiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[POLAROID_ANCILLARIES]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://safilo--uat.sandbox.lightning.force.com/
+    type: Input
+auxTests: []
+elements:
+- id: lFqPlb5m70K_v5QNmnPFAg
+  name: Other Brands in Customer Portfolio
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'Other Brands in Customer Portfolio']
+    priority: 0
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/lightning-layout/slot/lightning-layout-item[1]//div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/lightning-layout[2]/slot/lightning-layout-item/slot/lightning-layout/slot/lightning-layout-item[1]/slot/div
+    priority: 2
+- id: mztzmWro5E2bzZeMF5CBiw
+  name: DIV2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/lightning-layout[2]/slot/lightning-layout-item/slot/div
+    priority: 1
+projectParameters: []
+addons: []

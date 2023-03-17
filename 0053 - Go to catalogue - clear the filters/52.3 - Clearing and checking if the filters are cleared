@@ -1,0 +1,266 @@
+id: DCQ793u570ay8l5uCRISFg
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2022-12-14T14:17:57.0493110Z
+protocol: 1
+tests:
+- id: WBedIx0QKUOUNLatpLmL8g
+  name: 52.3 - Clearing and checking if the filters are cleared
+  description: This test was auto generated from steps of the '53 - Go to catalogue - clear the filters' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-07-07T10:31:18.0000000
+  modificationDate: 2022-07-15T10:08:04.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: _WPDwzx-WEu9sEQ1q81hmQ
+    name: Login SFA
+    url: https://safilo--uat.sandbox.lightning.force.com/
+    platform: Web
+  steps:
+  - id: ONXdwE75WEibg9VMs3A6Eg
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: I2OHKKe8DE-eK9RgVhtYUw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: c6ifP75mUk2U-IbbuQ_Zeg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: CpVNc-7rKUedTCVgJh9YuA
+    settings:
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hH2XbXmICEC5sntqPVOsYA
+    comments: ''
+    enabled: true
+    invertResult: true
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: fXeqgTxZrEi4gS4XGxiN8g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: eAfjCUZnXUGITmSf-zi5Lw
+    comments: ''
+    enabled: true
+    invertResult: true
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: GZp0lCxZE0Gzo86wCtwAgg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 07AymaMjy0qIZu4BHgrh9w
+    comments: ''
+    enabled: true
+    invertResult: true
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: MTvkOfdONk28fqAgPaMPKg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DQiKBDGQX0Wvpo97hdqlSg
+    comments: ''
+    enabled: true
+    invertResult: true
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: m7VE3RdM5E6_OlI9z3oRiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: I2OHKKe8DE-eK9RgVhtYUw
+  name: >-
+    Clear All
+
+    Close
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Clear AllClose']
+    priority: 0
+  - name: XPATH
+    value: //lightning-layout-item[2]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/*[name()='c-sfa_-p-l-p-header']/div/div[2]/lightning-layout/slot/lightning-layout-item[2]/slot/button
+    priority: 2
+- id: CpVNc-7rKUedTCVgJh9YuA
+  name: LIGHTNING-LAYOUT
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/lightning-layout
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/*[name()='c-sfa_-p-l-p-header']/div/div[2]/lightning-layout
+    priority: 1
+- id: fXeqgTxZrEi4gS4XGxiN8g
+  name: >-
+    Category: Sunglasses
+
+    Close2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: "//button[. = 'Category: SunglassesClose']"
+    priority: 0
+  - name: XPATH
+    value: //button[9]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/*[name()='c-sfa_-p-l-p-header']/div/div[2]/lightning-layout/slot/lightning-layout-item[1]/slot/button[9]
+    priority: 2
+- id: GZp0lCxZE0Gzo86wCtwAgg
+  name: >-
+    Brand: BOSS
+
+    Close1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: "//button[6][. = 'Brand: BOSSClose']"
+    priority: 0
+  - name: XPATH
+    value: //button[6]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/*[name()='c-sfa_-p-l-p-header']/div/div[2]/lightning-layout/slot/lightning-layout-item[1]/slot/button[6]
+    priority: 2
+- id: MTvkOfdONk28fqAgPaMPKg
+  name: >-
+    Brand: Jimmy Choo
+
+    Close1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: "//button[5][. = 'Brand: Jimmy ChooClose']"
+    priority: 0
+  - name: XPATH
+    value: //button[5]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/*[name()='c-sfa_-p-l-p-header']/div/div[2]/lightning-layout/slot/lightning-layout-item[1]/slot/button[5]
+    priority: 2
+- id: m7VE3RdM5E6_OlI9z3oRiw
+  name: >-
+    Brand: Hugo
+
+    Close1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: "//button[4][. = 'Brand: HugoClose']"
+    priority: 0
+  - name: XPATH
+    value: //button[4]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/*[name()='c-sfa_-p-l-p-header']/div/div[2]/lightning-layout/slot/lightning-layout-item[1]/slot/button[4]
+    priority: 2
+projectParameters: []
+addons: []

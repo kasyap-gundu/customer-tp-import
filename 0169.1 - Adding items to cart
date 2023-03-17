@@ -1,0 +1,662 @@
+id: HesE2erY602uD_VBtk7U_Q
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2022-08-22T11:03:52.2674040Z
+protocol: 1
+tests:
+- id: pVXSCBa5zUeHXij1fJbyhg
+  name: 0169.1 - Adding items to cart
+  description: This test was auto generated from steps of the '0169 - Cart - check cart, define net discounts and net total' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-08-09T10:15:41.0000000
+  modificationDate: 2022-08-22T11:03:48.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: _WPDwzx-WEu9sEQ1q81hmQ
+    name: Login SFA
+    url: https://safilo--uat.lightning.force.com/
+    platform: Web
+  steps:
+  - id: YVzwbGHisEOYE9F7GnKoDg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: OlhKQtAymUSTexa641BWxA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[PRODUCT1]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: p6UJeJm2bky_AF1c9FStJQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: jUtmer5PMkqHevUqbotkUw
+    settings:
+      sleepTime: 30000
+      timeout: -1
+      sleepTiming: After
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -BzzyGJP2kSZtd4DgvAlog
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: c7pfqQqmQkyP3kcneooMPg
+    settings:
+      sleepTime: 20000
+      timeout: -1
+      sleepTiming: After
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3Y6wnntiTkOSLta4YRWGbw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: gutsRZVp2Uu9xOe3G6rMuQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Rn_8Mqg7u0uhYwA4IT-ZEA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: gutsRZVp2Uu9xOe3G6rMuQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[QUANTITY1]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: bBmla4byvk-3qD7oih84fA
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: XwA1S8AmnU6IYDd7VgqTCw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 08qh0gSF9UKeLWqZP-9K8g
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: xNy9T63kMkSkOHaRKjpD3g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NUPPcWUgsEOs3FGnLPFOeQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: OlhKQtAymUSTexa641BWxA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tSs6hNmWk0-7fjmq0cg4YA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: OlhKQtAymUSTexa641BWxA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[PRODUCT2]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: D5J_c64OC0Ky1AkUi41IEw
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: jUtmer5PMkqHevUqbotkUw
+    settings:
+      sleepTime: 30000
+      timeout: -1
+      sleepTiming: After
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PVjSqBogWUK1Oy7YDXDfqw
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: c7pfqQqmQkyP3kcneooMPg
+    settings:
+      sleepTime: 20000
+      timeout: -1
+      sleepTiming: After
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: TvmqU29cNk68m48KFi2mDA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: gutsRZVp2Uu9xOe3G6rMuQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 511ddb4e-210f-4f3f-9fb9-b766bb23ee6a
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NPxyEB53JUiWJVnKaBJ4ZQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: gutsRZVp2Uu9xOe3G6rMuQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[QUANTITY2]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lAIoy4UoqUy_HP68TXPyZQ
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: XwA1S8AmnU6IYDd7VgqTCw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zbKWyOnxwke40wq2QTV2Ww
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: xNy9T63kMkSkOHaRKjpD3g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: oK7hWL3w2UGWt9rJOmCpXw
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: 44jcCpg1ykm9YQnyYYgpXg
+    settings:
+      sleepTime: 20000
+      timeout: -1
+      sleepTiming: After
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8Dwlt4pC1UeFejvgomDDAw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: yGekwj8TSUymmANa6cpySQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 0 Items Selected
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hyiU9gbc0USIof1cc95xpw
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: eOPqPX0YKEyyxlUNIZDvpw
+    settings:
+      sleepTime: 5000
+      timeout: -1
+      sleepTiming: After
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: v5FKjEWEsEK1oodyhp5VUw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: 55ZiIo0CwEuOv9RD2LbaqA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 1 Items Selected
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZjlZPJU1u0mfyKt7X38FkA
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: oeULZg11qEeQkV7sqBgatw
+    settings:
+      sleepTime: 5000
+      timeout: -1
+      sleepTiming: After
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 91iokH2hYke1GDHc4q5BjA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: RZ_ixLA2XEOYDE_60ZS07Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: 2 Items Selected
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: OlhKQtAymUSTexa641BWxA
+  name: Search in the Catalog - Digit Code, N...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/*[name()='c-sfa_-p-l-p-header']/div/div[1]/div[2]/div/div[1]/div/div/input
+    priority: 3
+  - name: XPATH
+    value: //div[1]/div/div/input
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Search in the Catalog - Digit Code, Name or Brand']
+    priority: 2
+  - name: CSSSELECTOR
+    value: '#searchStringId-1816'
+    priority: 1
+- id: jUtmer5PMkqHevUqbotkUw
+  name: svg6
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/lightning-icon[2]//*[name()='svg']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/*[name()='c-sfa_-p-l-p-header']/div/div[1]/div[2]/div/div[1]/div/div[1]/lightning-icon[2]/lightning-primitive-icon/*[name()='svg']
+    priority: 1
+- id: c7pfqQqmQkyP3kcneooMPg
+  name: IMG1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/div/lightning-layout/slot/lightning-layout-item/slot/*[name()='c-sfa_-p-l-p-product-item']/div/div/div/div/div[2]/*[name()='c-sfa_product-img']/img
+    priority: 1
+  - name: XPATH
+    value: //*[name()='c-sfa_product-img']/img
+    priority: 0
+- id: gutsRZVp2Uu9xOe3G6rMuQ
+  name: INPUT6
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/*[name()='c-sfa_pdp-variant-detail-row']//input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_product-display-view']/div[2]/lightning-card/article/div[2]/slot/lightning-layout/slot/lightning-layout-item/slot/*[name()='c-sfa_pdp-variant-detail']/div[1]/*[name()='c-sfa_pdp-variant-detail-row']/lightning-layout/slot/lightning-layout-item/slot/lightning-layout/slot/lightning-layout-item[2]/slot/div/lightning-layout-item/slot/lightning-layout/slot/lightning-layout-item/slot/lightning-layout-item/slot/lightning-layout/slot/lightning-layout-item[5]/slot/div[2]/*[name()='c-sfa_quantity-counter']/div/input
+    priority: 1
+- id: XwA1S8AmnU6IYDd7VgqTCw
+  name: DIV15
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //*[name()='c-sfa_product-display-view']/section/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_product-display-view']/section/div
+    priority: 1
+- id: xNy9T63kMkSkOHaRKjpD3g
+  name: Add to cart1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Add to cart']
+    priority: 0
+  - name: XPATH
+    value: //div/div/div[2]/lightning-button/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_product-display-view']/section/div/div/div/div[2]/lightning-button/button
+    priority: 2
+- id: 44jcCpg1ykm9YQnyYYgpXg
+  name: 'Cart items: 14'
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: "//span[. = 'Cart items: 14']"
+    priority: 1
+  - name: XPATH
+    value: //li[2]/div/div//span
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[2]/div[1]/div[8]/ul/li[2]/div/div/button/span
+    priority: 2
+- id: yGekwj8TSUymmANa6cpySQ
+  name: 0 Items Selected
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = '0 Items Selected']
+    priority: 0
+  - name: XPATH
+    value: //article/div[1]/div/div[2]/div/div[1]/div/div/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_cart-component_content']/article/div[1]/div/div[2]/div/div[1]/div/div/span
+    priority: 2
+- id: eOPqPX0YKEyyxlUNIZDvpw
+  name: SPAN39
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //*[name()='c-sfa_cart-component_grouped-cart-item'][1]/div/lightning-layout/slot/lightning-layout-item[3]/slot/*[name()='c-sfa_cart-component_cart-item']/lightning-layout/slot/div[1]/div[1]//span
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_cart-component_content']/article/div[3]/*[name()='c-sfa_cart-component_grouped-cart-item'][1]/div/lightning-layout/slot/lightning-layout-item[3]/slot/*[name()='c-sfa_cart-component_cart-item']/lightning-layout/slot/div[1]/div[1]/div/div/div/label/span
+    priority: 1
+- id: 55ZiIo0CwEuOv9RD2LbaqA
+  name: 1 Items Selected
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = '1 Items Selected']
+    priority: 0
+  - name: XPATH
+    value: //article/div[1]/div/div[2]/div/div[1]/div/div/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_cart-component_content']/article/div[1]/div/div[2]/div/div[1]/div/div/span
+    priority: 2
+- id: oeULZg11qEeQkV7sqBgatw
+  name: SPAN40
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //*[name()='c-sfa_cart-component_grouped-cart-item'][2]/div/lightning-layout/slot/lightning-layout-item[3]/slot/*[name()='c-sfa_cart-component_cart-item']/lightning-layout/slot/div[1]/div[1]//span
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_cart-component_content']/article/div[3]/*[name()='c-sfa_cart-component_grouped-cart-item'][2]/div/lightning-layout/slot/lightning-layout-item[3]/slot/*[name()='c-sfa_cart-component_cart-item']/lightning-layout/slot/div[1]/div[1]/div/div/div/label/span
+    priority: 1
+- id: RZ_ixLA2XEOYDE_60ZS07Q
+  name: 2 Items Selected
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = '2 Items Selected']
+    priority: 0
+  - name: XPATH
+    value: //article/div[1]/div/div[2]/div/div[1]/div/div/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_cart-component_content']/article/div[1]/div/div[2]/div/div[1]/div/div/span
+    priority: 2
+projectParameters: []
+addons: []

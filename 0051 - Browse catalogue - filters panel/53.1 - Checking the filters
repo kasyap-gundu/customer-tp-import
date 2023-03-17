@@ -1,0 +1,1241 @@
+id: DOsrPIcLFE-BFISA2thdxA
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2023-01-31T10:19:30.9424886Z
+protocol: 1
+tests:
+- id: G-uEQVKl4kqPrEeLWHwDOA
+  name: 53.1 - Checking the filters
+  description: This test was auto generated from steps of the '55 - Browse catalogue - filters panel' test
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-07-07T09:35:51.0000000
+  modificationDate: 2023-01-31T10:19:16.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: _WPDwzx-WEu9sEQ1q81hmQ
+    name: Login SFA
+    url: https://safilo--uat.sandbox.lightning.force.com/
+    platform: Web
+  steps:
+  - id: nt3cEqW4VUKBmLTrfXDucw
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: B7i6xQUGE0-V4COf5hVxWQ
+    settings:
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zjDXqcoxmkK6IOWEcRT8Dg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: hlNmru8hdUyGyfybLO7bhA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ugkoPb0B2UytylUV6jRI2g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 1hyKjJlNTkCndmkoZ5yc_A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: a2AhJlxU5kaQVDh9scH3KQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: c6kswVosk0emv_HaixvcLw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: v31YbRORl0-zmu0tckGarA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: ETDGtI882UeUu0C1KsHlXw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JlLqAAiOr0-JztzEfQPMrQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: EMzyGyh7hk25FUyiA_LX3A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: XeBmAKA8nU64d00pN1iZBg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: earKnmBfdUaOy8eFSH8-hw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: h4ls34XE6E2QckIDJg0CjQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: YvZPdcEToUKruVZCuR2JgA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: mscQUYWzJE6bxE6RG82ntw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: K15uBmbz90qIvTmCAYlfkw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1Vgqv_sJDEK0RB9w6Js88A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: _CKqulRqNUyw18rk0Qizhg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OH2CpSJlzku-0_7lQ31bCQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: jonpoU00x0e89PbGIrqYlw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Mgy4ySfxXk6e8PF2FXRd6g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: PPZcB0I8UEaBxe_eVfAy4w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GrQcAgmYF0KvcgaBsj1IlQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: tlCkgKL4gkCpeDXvHXKRPg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: U8Geey1uHUSkOikcDp_3Ww
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: zdiAM6xf1EOzj88Ly8gqeA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: A6ZycZCEsEyJKhYj07d09Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: B1-z-PaV3U-zVVmqA6kHlQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: r6VtmTL_JUKTvYL6l5IzWQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: RGOYIcUNiUmMsYsWFzHmtQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3TDO13y830uxKKFp6u--VQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: eurf0kNeYkWaljQfLdsBhA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uCLuAAhbRU6aFImDjy3ENg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: A97ANdmyA0Cyxymilxk92w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QF4My9PrK0Wa4ghxm4wpSQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: psIw0jXiJkCuWNFr7wavfg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: iIBXBT9vRUaR-3fV3ttM1Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: lHvh0z2CJUKkJTiA5JhPfQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: cWAZm6DZ80ulXpFZlPEL7A
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: 1hyKjJlNTkCndmkoZ5yc_A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GF0IP70yMkeKtST3tK4M4Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: KJlEhwQql0aXw5HCKXTAGA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: o7qrqnTI2UWID8w7Ud8zSg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: 1_WGqYfvVEuPPqe_6IMoMA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: IOhNqlOyWEu66L3UZkt1vQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: yJbP-uA-ikC_JUPVqzOlPA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FTTHT4O6BUOJ166WQ6v3Sw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    elementId: BzDY_GDKvES-cMUqv8rHdQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5mA0iafFHUyK7alfzP8w5g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 26
+    repeat: 1
+    type: Action
+    elementId: oT_jBRr0PU2YMiMcs-Qadw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MX_fQmtBCEGgDLgOPywXCQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 27
+    repeat: 1
+    type: Action
+    elementId: OdyMg_MRcEya6gQy9aR1lA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OgTn-fvCBEKomJP2Z65iAQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 28
+    repeat: 1
+    type: Action
+    elementId: HX0X9aDZK0W_0TFp6O6uSQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fq58eujonUSjUf9aI5C49A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 29
+    repeat: 1
+    type: Action
+    elementId: uLWBsGXH2km4ihdT0fQQlA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: O9t4v1dJA0yJQGb8gY6Liw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 30
+    repeat: 1
+    type: Action
+    elementId: o3sNcpKZ8EKLYVJUikOMwQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _ZwENh6iZU-kbFygIELUOQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 31
+    repeat: 1
+    type: Action
+    elementId: sXntxOdOckOT1O9pc6VHmg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: QAoJVaUYcUK0nB0lxTpj1Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 32
+    repeat: 1
+    type: Action
+    elementId: is3CUCbVU0ajYnjNy9WL6Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7dt7DzFbkUGIkx9uMIVB6g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 33
+    repeat: 1
+    type: Action
+    elementId: STYSJ0i67EGHKewdPe3vWw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: B7i6xQUGE0-V4COf5hVxWQ
+  name: Open filters
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/lightning-button/button
+    priority: 1
+  - name: XPATH
+    value: //button[. = 'Open filters']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/*[name()='c-sfa_-p-l-p-header']/div/div[1]/div[2]/div/div[4]/lightning-button/button
+    priority: 2
+- id: hlNmru8hdUyGyfybLO7bhA
+  name: Basic
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/lightning-tab-bar/ul/li[1]/a
+    priority: 3
+  - name: XPATH
+    value: //div/div/lightning-tabset/div/lightning-tab-bar/ul/li[1]/a
+    priority: 2
+  - name: CSSSELECTOR
+    value: '#tab-9__item'
+    priority: 1
+  - name: XPATH
+    value: //a[. = 'Basic']
+    priority: 0
+- id: 1hyKjJlNTkCndmkoZ5yc_A
+  name: Advanced
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#tab-25__item'
+    priority: 1
+  - name: XPATH
+    value: //a[. = 'Advanced']
+    priority: 0
+  - name: XPATH
+    value: //div/div/lightning-tabset/div/lightning-tab-bar/ul/li[2]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/lightning-tab-bar/ul/li[2]/a
+    priority: 3
+- id: c6kswVosk0emv_HaixvcLw
+  name: Saved searches
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#tab-26__item'
+    priority: 1
+  - name: XPATH
+    value: //a[. = 'Saved searches']
+    priority: 0
+  - name: XPATH
+    value: //div/div/lightning-tabset/div/lightning-tab-bar/ul/li[3]/a
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/lightning-tab-bar/ul/li[3]/a
+    priority: 3
+- id: ETDGtI882UeUu0C1KsHlXw
+  name: Release Date
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Release Date']
+    priority: 0
+  - name: XPATH
+    value: //lightning-accordion-section[1]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[1]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[1]/section/div[1]/h3/button
+    priority: 2
+- id: EMzyGyh7hk25FUyiA_LX3A
+  name: Brands
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Brands']
+    priority: 0
+  - name: XPATH
+    value: //lightning-accordion-section[2]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[1]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[2]/section/div[1]/h3/button
+    priority: 2
+- id: earKnmBfdUaOy8eFSH8-hw
+  name: New
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'New']
+    priority: 0
+  - name: XPATH
+    value: //lightning-accordion-section[3]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[1]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[3]/section/div[1]/h3/button
+    priority: 2
+- id: YvZPdcEToUKruVZCuR2JgA
+  name: Core collection
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[1]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[4]/section/div[1]/h3/button
+    priority: 2
+  - name: XPATH
+    value: //button[. = 'Core collection']
+    priority: 0
+  - name: XPATH
+    value: //lightning-accordion-section[4]//button
+    priority: 1
+- id: K15uBmbz90qIvTmCAYlfkw
+  name: Gender
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[1]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[5]/section/div[1]/h3/button
+    priority: 2
+  - name: XPATH
+    value: //lightning-accordion-section[5]//button
+    priority: 1
+  - name: XPATH
+    value: //button[. = 'Gender']
+    priority: 0
+- id: _CKqulRqNUyw18rk0Qizhg
+  name: Size
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Size']
+    priority: 0
+  - name: XPATH
+    value: //lightning-accordion-section[6]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[1]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[6]/section/div[1]/h3/button
+    priority: 2
+- id: jonpoU00x0e89PbGIrqYlw
+  name: Category2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Category']
+    priority: 0
+  - name: XPATH
+    value: //lightning-accordion-section[7]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[1]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[7]/section/div[1]/h3/button
+    priority: 2
+- id: PPZcB0I8UEaBxe_eVfAy4w
+  name: Main Material
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Main Material']
+    priority: 0
+  - name: XPATH
+    value: //lightning-accordion-section[8]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[1]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[8]/section/div[1]/h3/button
+    priority: 2
+- id: tlCkgKL4gkCpeDXvHXKRPg
+  name: Color
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-accordion-section[9]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[1]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[9]/section/div[1]/h3/button
+    priority: 2
+  - name: XPATH
+    value: //button[. = 'Color']
+    priority: 0
+- id: zdiAM6xf1EOzj88Ly8gqeA
+  name: Delivery Availability
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Delivery Availability']
+    priority: 0
+  - name: XPATH
+    value: //lightning-accordion-section[10]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[1]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[10]/section/div[1]/h3/button
+    priority: 2
+- id: B1-z-PaV3U-zVVmqA6kHlQ
+  name: Shape
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Shape']
+    priority: 0
+  - name: XPATH
+    value: //lightning-accordion-section[11]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[1]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[11]/section/div[1]/h3/button
+    priority: 2
+- id: RGOYIcUNiUmMsYsWFzHmtQ
+  name: Fitting
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Fitting']
+    priority: 0
+  - name: XPATH
+    value: //lightning-accordion-section[12]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[1]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[12]/section/div[1]/h3/button
+    priority: 2
+- id: eurf0kNeYkWaljQfLdsBhA
+  name: Best sellet filter
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Best seller']
+    priority: 0
+- id: A97ANdmyA0Cyxymilxk92w
+  name: Commercial Line
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Commercial Line']
+    priority: 0
+  - name: XPATH
+    value: //lightning-accordion-section[13]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[1]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[13]/section/div[1]/h3/button
+    priority: 2
+- id: psIw0jXiJkCuWNFr7wavfg
+  name: Structure
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Structure']
+    priority: 0
+  - name: XPATH
+    value: //lightning-accordion-section[14]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[1]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[14]/section/div[1]/h3/button
+    priority: 2
+- id: lHvh0z2CJUKkJTiA5JhPfQ
+  name: Special Price
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Special Price']
+    priority: 0
+  - name: XPATH
+    value: //lightning-accordion-section[15]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[1]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[15]/section/div[1]/h3/button
+    priority: 2
+- id: KJlEhwQql0aXw5HCKXTAGA
+  name: ADV
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'ADV']
+    priority: 0
+  - name: XPATH
+    value: //lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[1]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[1]/section/div[1]/h3/button
+    priority: 2
+- id: 1_WGqYfvVEuPPqe_6IMoMA
+  name: Lens Color
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Lens Color']
+    priority: 0
+  - name: XPATH
+    value: //lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[2]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[2]/section/div[1]/h3/button
+    priority: 2
+- id: yJbP-uA-ikC_JUPVqzOlPA
+  name: Lens Treatment
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Lens Treatment']
+    priority: 0
+  - name: XPATH
+    value: //lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[3]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[3]/section/div[1]/h3/button
+    priority: 2
+- id: BzDY_GDKvES-cMUqv8rHdQ
+  name: RxAble
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[4]/section/div[1]/h3/button
+    priority: 2
+  - name: XPATH
+    value: //button[. = 'RxAble']
+    priority: 0
+  - name: XPATH
+    value: //lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[4]//button
+    priority: 1
+- id: oT_jBRr0PU2YMiMcs-Qadw
+  name: Lens Base
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[6]/section/div[1]/h3/button
+    priority: 2
+  - name: XPATH
+    value: //lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[6]//button
+    priority: 1
+  - name: XPATH
+    value: //button[. = 'Lens Base']
+    priority: 0
+- id: OdyMg_MRcEya6gQy9aR1lA
+  name: Bridge Size
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Bridge Size']
+    priority: 0
+  - name: XPATH
+    value: //lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[7]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[7]/section/div[1]/h3/button
+    priority: 2
+- id: HX0X9aDZK0W_0TFp6O6uSQ
+  name: Diagonal
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Diagonal']
+    priority: 0
+  - name: XPATH
+    value: //lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[8]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[8]/section/div[1]/h3/button
+    priority: 2
+- id: uLWBsGXH2km4ihdT0fQQlA
+  name: Hinge Type
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Hinge Type']
+    priority: 0
+  - name: XPATH
+    value: //lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[9]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[9]/section/div[1]/h3/button
+    priority: 2
+- id: o3sNcpKZ8EKLYVJUikOMwQ
+  name: Front Material
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Front Material']
+    priority: 0
+  - name: XPATH
+    value: //lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[10]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[10]/section/div[1]/h3/button
+    priority: 2
+- id: sXntxOdOckOT1O9pc6VHmg
+  name: Secondary Material
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Secondary Material']
+    priority: 0
+  - name: XPATH
+    value: //lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[11]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[11]/section/div[1]/h3/button
+    priority: 2
+- id: is3CUCbVU0ajYnjNy9WL6Q
+  name: Pad Type
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Pad Type']
+    priority: 0
+  - name: XPATH
+    value: //lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[12]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[12]/section/div[1]/h3/button
+    priority: 2
+- id: STYSJ0i67EGHKewdPe3vWw
+  name: Sustainability
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[13]//button
+    priority: 1
+  - name: XPATH
+    value: //button[. = 'Sustainability']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-product-list']/div/*[name()='c-sfa_-p-l-p-filter-modal']/section/div/div/lightning-tabset/div/slot/lightning-tab[2]/slot/*[name()='c-sfa_-p-l-p-filter-modal-accordion']/lightning-accordion/slot/div/div[1]/lightning-accordion-section[13]/section/div[1]/h3/button
+    priority: 2
+projectParameters: []
+addons: []

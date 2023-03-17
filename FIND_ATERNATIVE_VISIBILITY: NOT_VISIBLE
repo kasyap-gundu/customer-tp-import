@@ -1,0 +1,67 @@
+id: rlGZ3Ekbrk-TsQk9sP6Gtw
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2022-10-03T08:00:31.4135035Z
+protocol: 1
+tests:
+- id: H64tnRcY3UipqQIuA0uj4A
+  name: 'FIND_ATERNATIVE_VISIBILITY: NOT_VISIBLE'
+  description: 'THIS STEP WILL RUN ONLY IF [FIND_ATERNATIVE_VISIBILITY]: IS NOT VISIBLE'
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-10-03T07:58:04.0000000
+  modificationDate: 2022-10-03T08:00:30.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: _WPDwzx-WEu9sEQ1q81hmQ
+    name: Login SFA
+    url: https://safilo--uat.lightning.force.com/
+    platform: Web
+  steps:
+  - id: t15tZ9vNB0OKbvJ_fTnIBg
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: -ms9Ol4nZE-_h0tFoFH5Sg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: -ms9Ol4nZE-_h0tFoFH5Sg
+  name: DIV51
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //*[name()='c-sfa_cart-component_content']/article/div[1]/div/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_cart-component_content']/article/div[1]/div/div[1]
+    priority: 1
+projectParameters: []
+addons: []

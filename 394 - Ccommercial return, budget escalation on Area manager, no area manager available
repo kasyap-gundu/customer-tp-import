@@ -1,0 +1,1770 @@
+id: FeC-MPe8ukGY0CyJ7WHLsw
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2022-11-16T07:37:38.4911880Z
+protocol: 1
+tests:
+- id: _9IQSxEJMkiE-ztIG5KnKQ
+  name: 394 - Ccommercial return, budget escalation on Area manager, no area manager available
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-11-15T10:54:52.0000000
+  modificationDate: 2022-11-16T07:37:32.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: _WPDwzx-WEu9sEQ1q81hmQ
+    name: Login SFA
+    url: https://safilo--uat.lightning.force.com/
+    platform: Web
+  steps:
+  - id: vMHH-e9qUkO9J5iarc8UTQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Test
+    targetTestId: RQBs_ySpCU-9v2zn2FzvoQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: mpTEhQk_vU2dVuaBE8dLSA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: ssgA0eLWe02c0BJAcUUbaQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MeyGxLFST0ijltJmMCOSAQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: ldAbYACiQUaJWBWO-KpIIQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uFDYrlPY60KzNjLmJ8cM9Q
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: J_o1hH_ct0ajMCl2_q97FQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 967HxAqdoU-W0VzGsSvn2w
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 6R-T_-_bMUqclApJXkw4XA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4zJoZLNen0SggTeEA38XMA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: Nc9tLCYJu06eo4wj_2MbEw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[COMMERCIAL_SKU]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: A-Fkl-pi_0ejv0Z1HEiZ6A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: 0qOdD-OhXUG59mA5N63SzQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[COMMERCIAL_QUANTITY]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: s5m4i0Y3dUq2Ukft63UyQw
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: Nc9tLCYJu06eo4wj_2MbEw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Jyg5izDQaUOfDpjp-yO-hQ
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: WaBih_0-iUieHBKWPC96pw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KL-eM8efy0OH-sCsbIzVeQ
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: cMUJPmbA9UeBjp_WsM8-4w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _1agxJ-IgESGqe91UUhsXg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: xltlYkmYM0uShUYHPLjYyg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[COMMERCIAL_CUSTOMER_EMAIL]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tglounTI_k-cLDOfy4QmBg
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: ukWaTrj9v0214oWEzTEvLw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 98nrav8tlUyQ-HEslQ0-oA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: JfFvH1x6SkevtllX5M70Cg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jJk01isex0Wxq3-x8V85IA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: ObXsJ1i9IU6PBeq4tEYbZw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Z667dkARrUaCE303I9DJuQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: Sc52wHZlEkCKcND_2rb13A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: EftWhNJBZkyI-_8g8IdobQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: Yg2kiZJNcUKlsSjRBbB2_Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Select an Option
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vZ2pFoSWfUmrZKJqUgNu0A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: fhBJ7JiQIEWNLQMeB8PPQg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: THcaQOE4lEGAXTxYxsSbHQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: 76LV2paRcUadWKzZaiA_VA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kvDx82zfN0OGBuZRgzTW8A
+    comments: ''
+    enabled: true
+    invertResult: true
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: ukWaTrj9v0214oWEzTEvLw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://safilo--uat.lightning.force.com/
+    type: Input
+  tags:
+  - COMMERCIAL
+  - RETURN
+auxTests:
+- id: RQBs_ySpCU-9v2zn2FzvoQ
+  name: 0045_Account selection - from header menù
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-06-30T10:54:06.0000000
+  modificationDate: 2022-09-07T08:59:28.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: GPjZdd_xrkK-h1P84AiZDw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Test
+    targetTestId: GPZTPXsPrU28pGfSK5cA-A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gyT7mJlp-USiFM53A4PdDw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Test
+    targetTestId: L7IXl9oq8UOEkPO5U_eD0A
+    settings:
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FVqCTatCAEyhwcYUEvi8aA
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: zeMkOvh9zkW-jbDGS9Vt3g
+    settings:
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ubbeBPWRU0uTua0N-oLRxg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 55qEm-K1JU6vkbU_z75mLg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: y8uQrtEtdkqlpsT-O3zk5g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: cV4FejPs60GXCM7YUPHn_g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Account
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 175ezqyewEG1art6lAMUPQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: zxQJL8xk4ECrVFAUOINoug
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: A PRIMA VISTA DI MAURIZI CLAUDIO
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://safilo--uat.lightning.force.com/
+    type: Input
+  tags:
+  - ACCOUNTS
+- id: GPZTPXsPrU28pGfSK5cA-A
+  name: 0.2 - Login SFA
+  description: Used by all tests
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-06-30T08:09:08.0000000
+  modificationDate: 2022-10-28T10:48:36.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: OK9h7PGpIUa76yPlCCsXSQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: E-IpSF9uRU6kCcluHezsDg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: wy9sazBV0EWYepqpcPlDlQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: eVSuZs1MX0Sm2FRMcGZS5g
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: wy9sazBV0EWYepqpcPlDlQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: wellnet.safilo.one+sr_it01@gmail.com.sfa
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4PDHUa4Xl06627MXSqLzyQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: XU2cdW6O8EiwecdDoMiZYQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: AyYQWGT5IEScbHsmajNQWA
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: XU2cdW6O8EiwecdDoMiZYQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: SafNewProject2022!-4
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5pfLrcBkiE6rmX8EM_48RA
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: QzsfZ8r0OEaqdHT6pLX4cA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fy7BDc2oT0eRmrYVVEtJTg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: NpfgU8jAG06hFpu7NS4wUA
+      source: Store
+      addonId: 775wVW80X0u_jcJi9jfJxw
+    parameterMaps:
+    - name: URL
+      value: https://mail.tm/en/
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: l9p93mp-kE62vFf8mJ8dMA
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
+      source: System
+    parameterMaps:
+    - name: index
+      value: 1
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ohShfTNQMU-LQbgCaYRlxg
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: https://mail.tm/en/
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KLS-zckJAEmUfvEuzl0wjg
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: WUH-FauAx0iFjBf7W_R1hQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9BVhMwjP40e9UvCh8_npOg
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: TrC7H9gHZ0uDRElblrIu2g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3qo8RD60g0Wlbp_DUhLQ3A
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: _qzdTN9wE02LhvJdSZ7vBg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0im2ZSo8M0mux1bfHY6REA
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: pjCVRwj7-UeOXF0jfB0Viw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: IRhaCI5TekSXtT3NftRkhw
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: pjCVRwj7-UeOXF0jfB0Viw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: safilo@scpulse.com
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NsSpg_6t70aNzdaY0cKmyg
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: 43lHrucJ2kaWJRDjeFNBrw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: TRrU-hOZ4EOPhUEzVUOEYQ
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: 43lHrucJ2kaWJRDjeFNBrw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ohL0aiba
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: LR2s-nvpKkG5koK8uH-xRA
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: sX1nJfoBvEWTz9lfAWb07A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HLktMlYN6UaLz44rLILQFA
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: 2vti9vDNdkmDrweAbG85bQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4tAzrcjwFU2gNz7YxMFV9A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Addon
+    elementId: sAIhlGl0xkStdxxnrzVjRw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: _eKo7zbUNEaI9yCeGICBnw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: output
+      value: '[[VerifCodeTM]]'
+      direction: Output
+    conditions: []
+    validations: []
+    contexts:
+    - order: 0
+      locatorType: XPATH
+      locatorValue: //*[@id = 'iFrameResizer0']|/html/body/div[1]/div/div/div[2]/main/div/div[3]/div[2]/div/iframe
+  - id: 6OJVFgBrwUCaS_jkvl4CMw
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
+      source: System
+    parameterMaps:
+    - name: index
+      value: 0
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dVCSbz5iYkuBPy-gxzsFmw
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: 6MIo5lKVn0magXx4qXAfHQ
+    settings:
+      sleepTime: 2000
+      timeout: 35000
+      sleepTiming: Before
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: isG7eeABEESebyJM5S_d1A
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: 6MIo5lKVn0magXx4qXAfHQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[VerifCodeTM]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: c4GD_zuuJkGv1KdkrWpEvQ
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: 8dwHCTcFbkydpwMhJqpIyQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: AlwaysPass
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://safilo--uat.lightning.force.com/
+    type: Input
+- id: L7IXl9oq8UOEkPO5U_eD0A
+  name: 0.4 - Set window size 1920*1080
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-07-07T06:32:19.0000000
+  modificationDate: 2022-07-07T06:36:09.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: Y7iMvvJz5UqWJ2jvbEIFng
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 7dUz-B_UEEyf3F5EVJ9dXA
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: width
+      value: 1980
+      direction: Input
+    - name: height
+      value: 1080
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://safilo--uat.lightning.force.com/
+    type: Input
+elements:
+- id: wy9sazBV0EWYepqpcPlDlQ
+  name: username
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#username'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='username']"
+    priority: 1
+  - name: XPATH
+    value: //div[1]/div/input[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/div[1]/div/input[1]
+    priority: 3
+- id: XU2cdW6O8EiwecdDoMiZYQ
+  name: pw
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='pw']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]/form/input[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/input[1]
+    priority: 3
+- id: QzsfZ8r0OEaqdHT6pLX4cA
+  name: Login
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div/div/div[2]/div[3]/form/input[2]
+    priority: 3
+  - name: CSSSELECTOR
+    value: '#Login'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='Login']"
+    priority: 1
+  - name: XPATH
+    value: //form/input[2]
+    priority: 2
+- id: TrC7H9gHZ0uDRElblrIu2g
+  name: IMG
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[2]/div/div/div[2]/div[4]/div/button/img
+    priority: 1
+  - name: XPATH
+    value: //button/img
+    priority: 0
+- id: _qzdTN9wE02LhvJdSZ7vBg
+  name: Login1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div[4]/a
+    priority: 1
+  - name: XPATH
+    value: >-
+      //a[. = '
+                  Login
+                ']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[2]/div/div/div[2]/div[4]/div[3]/div/div[4]/a
+    priority: 2
+- id: pjCVRwj7-UeOXF0jfB0Viw
+  name: Email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@placeholder = 'Email']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/span//input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/span/form/div[1]/span/div/input
+    priority: 2
+- id: 43lHrucJ2kaWJRDjeFNBrw
+  name: Password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/span/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[3]/div/div[2]/div[1]/div[2]/div[2]/span/form/div[2]/span/div/input
+    priority: 3
+- id: sX1nJfoBvEWTz9lfAWb07A
+  name: Login2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[1]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[3]/div/div[2]/div[2]/span[1]/button
+    priority: 2
+  - name: XPATH
+    value: >-
+      //button[. = '
+              Login
+            ']
+    priority: 0
+- id: 2vti9vDNdkmDrweAbG85bQ
+  name: noreply@salesforce.com1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[1]//span[. = 'noreply@salesforce.com']
+    priority: 0
+  - name: XPATH
+    value: //li[1]/a/div/div[1]/div[2]//span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[2]/main/div/div[2]/ul/li[1]/a/div/div[1]/div[2]/div[1]/div[2]/span
+    priority: 2
+- id: sAIhlGl0xkStdxxnrzVjRw
+  name: 'Verification Code: 669725'
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTM
+    name: Paragraph
+    source: System
+  locators:
+  - name: XPATH
+    value: //p[4]
+    priority: 0
+  - name: XPATH
+    value: /html/body/p[4]
+    priority: 1
+- id: 6MIo5lKVn0magXx4qXAfHQ
+  name: emc
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[1]/input
+    priority: 2
+  - name: CSSSELECTOR
+    value: '#emc'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='emc']"
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[2]/form/div[1]/input
+    priority: 3
+- id: 8dwHCTcFbkydpwMhJqpIyQ
+  name: save
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#save'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='save']"
+    priority: 1
+  - name: XPATH
+    value: //input[10]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div[2]/form/input[10]
+    priority: 3
+- id: 55qEm-K1JU6vkbU_z75mLg
+  name: A PRIMA VISTA DI MAURIZI CLAUDIO
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[1]/div/div/div/div/div/div/div/div[2]/div/div[1]/div[2]/div[2]/div[1]/div/div/table/tbody/tr[1]/th/span/a
+    priority: 2
+  - name: XPATH
+    value: //tr[1]/th/span/a
+    priority: 1
+  - name: XPATH
+    value: //a[. = 'A PRIMA VISTA DI MAURIZI CLAUDIO']
+    priority: 0
+- id: zeMkOvh9zkW-jbDGS9Vt3g
+  name: Accounts
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //one-app-nav-bar-item-root[2]/a/span
+    priority: 1
+  - name: XPATH
+    value: //span[. = 'Accounts']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[1]/one-appnav/div/one-app-nav-bar/nav/div/one-app-nav-bar-item-root[2]/a/span
+    priority: 2
+- id: zxQJL8xk4ECrVFAUOINoug
+  name: A PRIMA VISTA DI MAURIZI CLAUDIO1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/lightning-formatted-text
+    priority: 1
+  - name: XPATH
+    value: //div/lightning-formatted-text[. = 'A PRIMA VISTA DI MAURIZI CLAUDIO']
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[2]/div/one-record-home-flexipage2/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-record-page___-s-f-a_-account-record-page___-account___-v-i-e-w']/*[name()='forcegenerated-flexipage_sfa_accountrecordpage_account__view_js']/*[name()='record_flexipage-record-page-decorator']/div[1]/records-record-layout-event-broker/slot/slot/flexipage-record-home-left-sidebar-template-desktop2/div/div[1]/slot/flexipage-component2/slot/records-lwc-highlights-panel/records-lwc-record-layout/*[name()='forcegenerated-highlightspanel_account___0125j000000pdchqa0___compact___view___recordlayout2']/records-highlights2/div[1]/div[1]/div[1]/div[2]/h1/slot/sfa-output-name-with-hierarchy-icon-account/sfa-output-name-with-hierarchy-icon-wrapper/force-aura-action-wrapper/div/div/lightning-formatted-text
+    priority: 2
+- id: cV4FejPs60GXCM7YUPHn_g
+  name: Account
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[2]/div/one-record-home-flexipage2/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-record-page___-s-f-a_-account-record-page___-account___-v-i-e-w']/*[name()='forcegenerated-flexipage_sfa_accountrecordpage_account__view_js']/*[name()='record_flexipage-record-page-decorator']/div[1]/records-record-layout-event-broker/slot/slot/flexipage-record-home-left-sidebar-template-desktop2/div/div[1]/slot/flexipage-component2/slot/records-lwc-highlights-panel/records-lwc-record-layout/*[name()='forcegenerated-highlightspanel_account___0125j000000pdchqa0___compact___view___recordlayout2']/records-highlights2/div[1]/div[1]/div[1]/div[2]/h1/div
+    priority: 2
+  - name: XPATH
+    value: //h1/div
+    priority: 1
+  - name: XPATH
+    value: //div[. = 'Account']
+    priority: 0
+- id: ssgA0eLWe02c0BJAcUUbaQ
+  name: Commercial Return
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Commercial Return']
+    priority: 0
+  - name: XPATH
+    value: //li[2]/*[name()='runtime_platform_actions-action-renderer']//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[2]/div/one-record-home-flexipage2/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-record-page___-s-f-a_-account-record-page___-account___-v-i-e-w']/*[name()='forcegenerated-flexipage_sfa_accountrecordpage_account__view_js']/*[name()='record_flexipage-record-page-decorator']/div[1]/records-record-layout-event-broker/slot/slot/flexipage-record-home-left-sidebar-template-desktop2/div/div[1]/slot/flexipage-component2/slot/records-lwc-highlights-panel/records-lwc-record-layout/*[name()='forcegenerated-highlightspanel_account___0125j000000pdchqa0___compact___view___recordlayout2']/records-highlights2/div[1]/div[1]/div[3]/div/*[name()='runtime_platform_actions-actions-ribbon']/ul/li[2]/*[name()='runtime_platform_actions-action-renderer']/*[name()='runtime_platform_actions-executor-page-reference']/slot/slot/lightning-button/button
+    priority: 2
+- id: cMUJPmbA9UeBjp_WsM8-4w
+  name: Send Order1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Send Order']
+    priority: 0
+  - name: XPATH
+    value: //lightning-layout-item[4]//button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-commercial-return-request']/div[1]/div/div/div[2]/div/div/lightning-layout/slot/lightning-layout-item[4]/slot/lightning-button/button
+    priority: 2
+- id: J_o1hH_ct0ajMCl2_q97FQ
+  name: brand-select
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#combobox-button-593'
+    priority: 2
+  - name: CSSSELECTOR
+    value: "[name='brand-select']"
+    priority: 1
+  - name: XPATH
+    value: //lightning-base-combobox//button
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-commercial-return-request']/article/lightning-layout/slot/lightning-layout-item/slot/div/lightning-layout/slot/*[name()='c-sfa_-commercial-request-row']/lightning-layout/slot/lightning-layout-item[1]/slot/lightning-combobox/div/lightning-base-combobox/div/div[1]/button
+    priority: 3
+- id: ukWaTrj9v0214oWEzTEvLw
+  name: Proceed
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Proceed']
+    priority: 0
+  - name: XPATH
+    value: //lightning-button[2]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-commercial-return-request']/*[name()='c-sfa_modal']/section/div/div/footer/slot/div/div/lightning-button[2]/button
+    priority: 2
+- id: JfFvH1x6SkevtllX5M70Cg
+  name: DIV25
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //body/div[6]/div/div/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[6]/div/div/div
+    priority: 1
+- id: 76LV2paRcUadWKzZaiA_VA
+  name: Cancel2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-button/button[. = 'Cancel']
+    priority: 0
+  - name: XPATH
+    value: //footer/div/lightning-button[1]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_cart-component_content']/section/div/footer/div/lightning-button[1]/button
+    priority: 2
+- id: WUH-FauAx0iFjBf7W_R1hQ
+  name: AGREE
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'AGREE']
+    priority: 0
+  - name: XPATH
+    value: //button[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/div[2]/div/button[3]
+    priority: 2
+- id: ldAbYACiQUaJWBWO-KpIIQ
+  name: DIV49
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //flexipage-lwc-default-app-home-template/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div
+    priority: 1
+- id: 6R-T_-_bMUqclApJXkw4XA
+  name: JIMMY CHOO2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[2][. = 'JIMMY CHOO']
+    priority: 0
+  - name: XPATH
+    value: //lightning-base-combobox-item[2]/span[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-commercial-return-request']/article/lightning-layout/slot/lightning-layout-item/slot/div/lightning-layout/slot/*[name()='c-sfa_-commercial-request-row']/lightning-layout/slot/lightning-layout-item[1]/slot/lightning-combobox/div[1]/lightning-base-combobox/div/div[2]/lightning-base-combobox-item[2]/span[2]
+    priority: 2
+- id: Nc9tLCYJu06eo4wj_2MbEw
+  name: input-605
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#input-605'
+    priority: 1
+  - name: XPATH
+    value: //lightning-layout-item[3]//input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-commercial-return-request']/article/lightning-layout/slot/lightning-layout-item/slot/div/lightning-layout/slot/*[name()='c-sfa_-commercial-request-row']/lightning-layout/slot/lightning-layout-item[3]/slot/div/*[name()='c-sfa_-commercial-request-lookup']/div/div/div/div/div/lightning-input/div/input
+    priority: 2
+- id: 0qOdD-OhXUG59mA5N63SzQ
+  name: input-611
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#input-611'
+    priority: 1
+  - name: XPATH
+    value: //lightning-layout-item[6]//input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-commercial-return-request']/article/lightning-layout/slot/lightning-layout-item/slot/div/lightning-layout/slot/*[name()='c-sfa_-commercial-request-row']/lightning-layout/slot/lightning-layout-item[6]/slot/div/lightning-input/div/input
+    priority: 2
+- id: WaBih_0-iUieHBKWPC96pw
+  name: 10090407E5216
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[. = '10090407E5216']
+    priority: 0
+  - name: XPATH
+    value: //*[name()='c-sfa_-commercial-request-lookup']//li
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-commercial-return-request']/article/lightning-layout/slot/lightning-layout-item/slot/div/lightning-layout/slot/*[name()='c-sfa_-commercial-request-row']/lightning-layout/slot/lightning-layout-item[3]/slot/div/*[name()='c-sfa_-commercial-request-lookup']/div/div/div/div/div[2]/ul/li
+    priority: 2
+- id: xltlYkmYM0uShUYHPLjYyg
+  name: input-626
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#input-626'
+    priority: 1
+  - name: XPATH
+    value: //div/slot/div/lightning-input//input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-commercial-return-request']/*[name()='c-sfa_modal']/section/div/div/slot/div/lightning-input/div/input
+    priority: 2
+- id: ObXsJ1i9IU6PBeq4tEYbZw
+  name: Select Approver Name
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h2[. = 'Select Approver Name']
+    priority: 0
+  - name: XPATH
+    value: //header/h2
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-commercial-return-request']/*[name()='c-sfa_-commercial-request-approval-modal']/section/div/header/h2
+    priority: 2
+- id: Sc52wHZlEkCKcND_2rb13A
+  name: approver
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#combobox-button-635'
+    priority: 2
+  - name: CSSSELECTOR
+    value: "[name='approver']"
+    priority: 1
+  - name: XPATH
+    value: //button[. = 'Select an Option']
+    priority: 0
+  - name: XPATH
+    value: //div/lightning-combobox//button
+    priority: 3
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-commercial-return-request']/*[name()='c-sfa_-commercial-request-approval-modal']/section/div/div/div[1]/lightning-combobox/div/lightning-base-combobox/div/div[1]/button
+    priority: 4
+- id: Yg2kiZJNcUKlsSjRBbB2_Q
+  name: Select an Option1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Select an Option']
+    priority: 0
+  - name: XPATH
+    value: //div/lightning-combobox//span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-commercial-return-request']/*[name()='c-sfa_-commercial-request-approval-modal']/section/div/div/div[1]/lightning-combobox/div/lightning-base-combobox/div/div[1]/button/span
+    priority: 2
+- id: fhBJ7JiQIEWNLQMeB8PPQg
+  name: There is no Area Manager available fo...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'There is no Area Manager available for this request. Please contact your Administrator.']
+    priority: 0
+  - name: XPATH
+    value: //*[name()='c-sfa_-commercial-request-approval-modal']/section/div/div/div[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_-commercial-return-request']/*[name()='c-sfa_-commercial-request-approval-modal']/section/div/div/div[2]
+    priority: 2
+projectParameters:
+- id: r2apq3ZV1EuZHWhOR44vSg
+  name: VerifCodeTM
+  description: ''
+  value: 565577
+- id: dbb9UnY4l0uMgaviblVSQA
+  name: COMMERCIAL_SKU
+  description: ''
+  value: 10090407E5216
+- id: aOhHIrgY7EOK5u2YmMev0A
+  name: COMMERCIAL_QUANTITY
+  description: ''
+  value: 200
+- id: hGEv6EPEeEu8CAd0kwjyBQ
+  name: COMMERCIAL_CUSTOMER_EMAIL
+  description: ''
+  value: wellnet.safilo.one@gmail.com
+addons:
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.1.9
+  actions:
+  - id: _eKo7zbUNEaI9yCeGICBnw
+    name: Get Numbers Only
+    description: Return only numbers from the text
+    className: io.testproject.addons.web.element.GetNumbersOnly
+  - id: 7dUz-B_UEEyf3F5EVJ9dXA
+    name: Set window size
+    description: Set window size to ({{width}},{{height}})
+    className: io.testproject.addons.web.window.SetWindowSize
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
+- id: 775wVW80X0u_jcJi9jfJxw
+  source: Store
+  version: 0.6
+  actions:
+  - id: NpfgU8jAG06hFpu7NS4wUA
+    name: Open URL in New Tab
+    description: Open a URL in a new tab
+    className: NewTabAtURL
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: F31625A0D5FB4DA99C55BAE170047D94F81D08AC0EA8623AF682C4E335FAA18B

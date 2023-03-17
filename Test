@@ -1,0 +1,100 @@
+id: WqFWmAhZnUKlFWkhMbHrhA
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2023-02-02T09:36:10.3937270Z
+protocol: 1
+tests:
+- id: uKdrr3629UiY4baELUcaxQ
+  name: Test
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2023-02-02T09:29:00.0000000
+  modificationDate: 2023-02-02T09:29:35.0000000
+  settings:
+    automationAssistant: true
+    appId: vBBwERMNiEC5AhkACHYTVQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: vBBwERMNiEC5AhkACHYTVQ
+    name: lafarmacia
+    url: https://www.lafarmacia.it/
+    platform: Web
+  steps:
+  - id: i90DQM3CV0ilcj0W_3mhNw
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xw2zJ3iSv0i0ufTlATBXFg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: PeyM-YLJnU6CvfzV_-3aEw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://www.lafarmacia.it/
+    type: Input
+auxTests: []
+elements:
+- id: PeyM-YLJnU6CvfzV_-3aEw
+  name: Accetta tutti
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll'
+    priority: 0
+  - name: XPATH
+    value: //button[. = 'Accetta tutti']
+    priority: 1
+  - name: XPATH
+    value: //button[4]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div[4]/div[1]/div[2]/button[4]
+    priority: 3
+projectParameters: []
+addons: []

@@ -1,0 +1,616 @@
+id: JMQxo0bTG0qeruCjQya6Gg
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2022-07-07T07:30:37.2686317Z
+protocol: 1
+tests:
+- id: ggYGFVqPe0StSWOoJ-Y29A
+  name: 48.2 - Checking the Brands you manage section
+  description: Used for test 48
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-07-07T07:26:10.0000000
+  modificationDate: 2022-07-07T07:30:35.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: _WPDwzx-WEu9sEQ1q81hmQ
+    name: Login SFA
+    url: https://safilo--uat.lightning.force.com/
+    platform: Web
+  steps:
+  - id: sTnd6o_7kkGgwRDbDs1cyg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 19qy29MSqEOftoP6VAWN_g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3o1DnQ-qC0uJ_BNoQ5XKGQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[BOSS_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lovtr4vNfEee0b3CxYlnCw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[CARRERA_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5tqXSshMTEWK-Cm4KB-SEg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[DUMMY_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: aIIbUmg9KkG9sBWVS3Wrcg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[FOSSIL_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vZqLMZHtkU6xCobUnJMRuQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[HAVAIANAS_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fT3vv1ivNUuivpEjuzLZXQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[HUGO_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1zttblXgn0yivJkRmmZeTg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[KATESPADE_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1RwlYPHLJEWkcksivq9i5Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[LOVEMOSCHINO_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MeMtwEfASkmN5nqGyCyN1g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[MARCJACOBS_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: iEhyMKNSzEqvn8-aF1qA5g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[MOSCHINO_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: sDuWB72CgkKwxovDQV6Jyg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[PIERRECARDIN_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tsatuxqZZE2EnpyQj_MPLg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[POLAROID_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: amSMPBj5XkyPgm3VPFgd1A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[POLAROID_ANCILLARIES]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qZOgFkGoZkq6FLO6K4hAaw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[POLAROID_KIDS_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: B2mQIyZR2UaB5N6d5PRUzA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[POLAROID_STAYSAFE_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ss9XoKKqOkiVi94mnVZc3w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[RAGNBONE_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: JXQKJQVOIkqJcg7zJ03N5g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[SAFILO_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HdDyxPW_x06mmiZvUGqrEQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[SEVENTHSTREET_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Qu9lF1BuGUemY4O12qcWZg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: U3JBb5akYUewRe5Pa462dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[TOMMYHILFIGER_BRAND]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: 19qy29MSqEOftoP6VAWN_g
+  name: The Brands you manage for this Custom...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'The Brands you manage for this Customer']
+    priority: 0
+  - name: XPATH
+    value: //lightning-layout[1]/slot/lightning-layout-item[1]/slot/lightning-layout/slot/lightning-layout-item[1]//div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/lightning-layout[1]/slot/lightning-layout-item[1]/slot/lightning-layout/slot/lightning-layout-item[1]/slot/div
+    priority: 2
+- id: U3JBb5akYUewRe5Pa462dg
+  name: DIV8
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/lightning-layout[1]/slot/lightning-layout-item[1]/slot/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/lightning-layout[1]/slot/lightning-layout-item[1]/slot/div
+    priority: 1
+projectParameters:
+- id: mDADWUN7_kOJ2Wxp0q1L3Q
+  name: BOSS_BRAND
+  description: ''
+  value: BOSS
+- id: KpJcBhsGakyp5aOD9e1HpQ
+  name: CARRERA_BRAND
+  description: ''
+  value: Carrera
+- id: eunz5fWsR0W1rtXDDdrQzw
+  name: HUGO_BRAND
+  description: ''
+  value: Hugo
+- id: AEb3wLs5xkGaYIwgG5c1GQ
+  name: FOSSIL_BRAND
+  description: ''
+  value: Fossil
+- id: ymRKtKQpV0qJxVgk2_5ymA
+  name: LOVEMOSCHINO_BRAND
+  description: ''
+  value: Love Moschino
+- id: 4YyXFOZ1cUCNk0lmfIFD_Q
+  name: MOSCHINO_BRAND
+  description: ''
+  value: Moschino
+- id: sWHIhhPQkUyisYQGu8_W3w
+  name: POLAROID_BRAND
+  description: ''
+  value: Polaroid
+- id: WhEYI14O_EatVWtNYSE5iw
+  name: POLAROID_KIDS_BRAND
+  description: ''
+  value: Polaroid Kids
+- id: H0cwfqxPzkyzYWAUHHmHqA
+  name: RAGNBONE_BRAND
+  description: ''
+  value: Rag & Bone
+- id: z6PKffeMvUSmTKXI-lqmUg
+  name: SEVENTHSTREET_BRAND
+  description: ''
+  value: Seventh Street
+- id: psXfx-nbmE6cVXB-GnQ-gg
+  name: DUMMY_BRAND
+  description: ''
+  value: Dummy
+- id: Zdh3DsPTek2E51xVLwTZ5Q
+  name: HAVAIANAS_BRAND
+  description: ''
+  value: Havaianas
+- id: jKNV3Ek1bkSVGLMACh7oVA
+  name: KATESPADE_BRAND
+  description: ''
+  value: Kate Spade
+- id: XeRY4FjwXU2Rqddg-rjdxA
+  name: MARCJACOBS_BRAND
+  description: ''
+  value: Marc Jacobs
+- id: ohGxf-XJtUaAeV-uKl_Qkw
+  name: PIERRECARDIN_BRAND
+  description: ''
+  value: Pierre Cardin
+- id: VKSh63P_g0axnIomNaRWJg
+  name: POLAROID_ANCILLARIES
+  description: ''
+  value: Polaroid Ancillaries
+- id: 5a-JixHPb0-isp_qQ7RcuA
+  name: POLAROID_STAYSAFE_BRAND
+  description: ''
+  value: Polaroid Staysafe
+- id: TrwNbk6fz0e8Ay0ugrYnGg
+  name: SAFILO_BRAND
+  description: ''
+  value: Safilo
+- id: AzezRgz75EC8UNK7-lDh1A
+  name: TOMMYHILFIGER_BRAND
+  description: ''
+  value: Tommy Hilfiger
+addons: []

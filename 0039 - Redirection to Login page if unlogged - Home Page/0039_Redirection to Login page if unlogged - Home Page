@@ -1,0 +1,103 @@
+id: wpL_oGNxJE-Rzl_X6UtH5A
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2022-09-07T08:56:28.3613602Z
+protocol: 1
+tests:
+- id: 1YnJWFmMn06FoVmOMcippg
+  name: 0039_Redirection to Login page if unlogged - Home Page
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-06-30T09:55:00.0000000
+  modificationDate: 2022-09-07T08:56:28.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: _WPDwzx-WEu9sEQ1q81hmQ
+    name: Login SFA
+    url: https://safilo--uat.lightning.force.com/
+    platform: Web
+  steps:
+  - id: ZsQza8MowUy4VfcogAd0NA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: https://safilo--uat.lightning.force.com/lightning/page/home
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hZS8hghm5EaJkYkGP5e6aw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: V43fmwmEB0yYx7ebGB2vxw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Safilo Login
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://safilo--uat.lightning.force.com/
+    type: Input
+  tags:
+  - LOGIN
+auxTests: []
+elements:
+- id: V43fmwmEB0yYx7ebGB2vxw
+  name: Safilo Login
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Safilo Login']
+    priority: 0
+  - name: XPATH
+    value: //div[6]/button[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div/div/div[6]/button[1]
+    priority: 2
+projectParameters: []
+addons: []

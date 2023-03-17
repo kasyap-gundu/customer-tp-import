@@ -1,0 +1,1174 @@
+id: zcZkdyuFT0SQytFK5ljfMw
+projectId: 9_8aWhcLxkKc6wYz35LRiQ
+projectName: Safilo SFA
+created: 2023-01-29T16:25:23.7113713Z
+protocol: 1
+tests:
+- id: -aFiGQhM50uQwrUP7aYCkw
+  name: 47.4 - Checking the  Brands you Manage section
+  description: Used for test 47
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 1.0
+  creationDate: 2022-07-07T05:37:24.0000000
+  modificationDate: 2023-01-29T16:25:22.0000000
+  settings:
+    automationAssistant: true
+    appId: _WPDwzx-WEu9sEQ1q81hmQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: _WPDwzx-WEu9sEQ1q81hmQ
+    name: Login SFA
+    url: https://safilo--uat.sandbox.lightning.force.com/
+    platform: Web
+  steps:
+  - id: oXo7MFEVyUOFE674j2OjSA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 19qy29MSqEOftoP6VAWN_g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pTIlYJry30CgJjeV5oZfOQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: W8eINN9lQESqsj6uiCZy7A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[FIRST_MANAGED_BRAND]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 1
+    validations: []
+    contexts: []
+  - id: cC7jQQMJrkaE0_jk9lOE2w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 8I_x9E1c2UecZxxi29U-qw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[SECOND_MANAGED_BRAND]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 2
+    validations: []
+    contexts: []
+  - id: rktyvU_vnkurxFOZaesTew
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 3ka2LK-M9EGqKxFanzLLiw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[THIRD_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 3
+    validations: []
+    contexts: []
+  - id: R5Xaxq3fyEOfFY5pATAkkw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: LIbH-h1BWEuVUdZZB3Xp-A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[FOURTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 4
+    validations: []
+    contexts: []
+  - id: kK1FQC5CREyU_gVDR-JqhQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: toW6C84H9USey6jJ9DdBvg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[FIFTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 5
+    validations: []
+    contexts: []
+  - id: GLbI9yehU0edsBjVUt8pZg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: HN5SfNqp_ECgZJdH1Hhv2A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[SIXTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 6
+    validations: []
+    contexts: []
+  - id: XJHpNH4vJEyc4q2-Kb7Haw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: Dk_ckT6xNEmu-TjInHjaDQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[SEVENTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 7
+    validations: []
+    contexts: []
+  - id: BALZz9OK6kWKDsG7s0suDQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: XHrSu78Mjku1cqEJ6ydgMw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[EIGHT_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 8
+    validations: []
+    contexts: []
+  - id: t5ra_XVez02L4kHy2KuUmA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: wCVa-Gl1e0CCE6RkSNzaGQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[NINTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 9
+    validations: []
+    contexts: []
+  - id: q2kKbG5wpUmi1ZN8KHjldg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: Eg3hnHLYC0-t0DMQoCsMeA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[TENTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 10
+    validations: []
+    contexts: []
+  - id: Ku2QLDtcHkWfjz6xHbSgNg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: 18fxMpQCw0eCOAFzxaTtsw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[ELEVENTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 11
+    validations: []
+    contexts: []
+  - id: eMcInW6B102ZfSmh35_yJQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: 1aFVD2duHUK1yjIPrCDGqA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[TWELFTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 12
+    validations: []
+    contexts: []
+  - id: NE1H3c3BYkOJNYPnhuQ3IQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: Sa9bkKhJ1EO04oxqiYeMig
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[THIRTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 13
+    validations: []
+    contexts: []
+  - id: J253Mn_4NECUr0S708uj_A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: ckrayNCXxUGzRZUUIW-DGw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[FOURTEENTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 14
+    validations: []
+    contexts: []
+  - id: fyCAvF_tH0qCUaZ7DNNXeQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: FDpRL6lGd0KazUfF3DhEWA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[FIFTEENTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 15
+    validations: []
+    contexts: []
+  - id: RkcaeGF7-EKbh9IXnwMygA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: gLCvRtn8QUSa2aPTfOnlYg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[SIXTEENTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 17
+    validations: []
+    contexts: []
+  - id: vVHYE9lfWUyFXpqe2dNjEA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    elementId: 5jVxvv0Bpk2AumbmoaIIJg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[SEVENTEENTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 17
+    validations: []
+    contexts: []
+  - id: PUCmRlHSrE28J75JspMNng
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: k0VT8HtuCkaWiFwHD11Iug
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[EIGHTEENTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 18
+    validations: []
+    contexts: []
+  - id: QWqKeKNdh0SVz7C41nZI6g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: NOKJQs4owkCzknyGJVfV8Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[NINETEENTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 19
+    validations: []
+    contexts: []
+  - id: 6OBQ5tqWOkyPwFAioRofqQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: X2oeSNdDh0KgmO1yWSXZsQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[TWENTIETH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 20
+    validations: []
+    contexts: []
+  - id: FYakF0hhjkivvueanJAciw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: rZqniGH1ZUukJE5e0VoBkg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[TWENTY_FIRST_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 21
+    validations: []
+    contexts: []
+  - id: V2kNkm1gEkmfjt9QhPuWTg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: TTcChQWavEWN_aI6Ngs55Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[TWENTY_SECOND_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 22
+    validations: []
+    contexts: []
+  - id: M7kofc5uqU-A8v6P4JqPRQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: y3R4VA55WE2_hhuSq131ZA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[TWENTY_THIRD_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 23
+    validations: []
+    contexts: []
+  - id: 68Vvax0fLUuejGcI1LDWyg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    elementId: ep2ywbAYK0aHhPx12iCbZQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[TWENTY_FORTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 24
+    validations: []
+    contexts: []
+  - id: 6xwmCv3NUUuCnO3UEgJ6wg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 26
+    repeat: 1
+    type: Action
+    elementId: ThlgwDawzkW7IQSGtcYtyA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[TWENTY_FIFTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 25
+    validations: []
+    contexts: []
+  - id: f3NW23hJ1EuT09aavRDlng
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 27
+    repeat: 1
+    type: Action
+    elementId: WmvHnbzvd0ye0BPbuBQ2bg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '[[TWENTY_SIXTH_BRAND_MANAGED]]'
+      direction: Input
+    conditions:
+    - parameter: '[[MANAGED_BRAND_NUMBER]]'
+      type: GTE
+      invert: false
+      value: 26
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: 19qy29MSqEOftoP6VAWN_g
+  name: The Brands you manage for this Custom...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'The Brands you manage for this Customer']
+    priority: 0
+  - name: XPATH
+    value: //lightning-layout[1]/slot/lightning-layout-item[1]/slot/lightning-layout/slot/lightning-layout-item[1]//div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/lightning-layout[1]/slot/lightning-layout-item[1]/slot/lightning-layout/slot/lightning-layout-item[1]/slot/div
+    priority: 2
+- id: W8eINN9lQESqsj6uiCZy7A
+  name: FIRST_MANAGED_BRAND
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: >
+      //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[1]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[1]/slot/div/div/div/label
+    priority: 1
+- id: 8I_x9E1c2UecZxxi29U-qw
+  name: SECOND MANAGED BRAND SLOT
+  description: SECOND MANAGED BRAND SLOT IN BRAND PAGE SFA
+  type:
+    id: jUwODgyNjAyNzk2NTk2MzU
+    name: label
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[2]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[2]/slot/div/div/div/label
+    priority: 1
+- id: 3ka2LK-M9EGqKxFanzLLiw
+  name: THIRD BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: >
+      //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[3]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[3]/slot/div/div/div/label
+    priority: 1
+- id: LIbH-h1BWEuVUdZZB3Xp-A
+  name: FOURTH MANAGED BRAND SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: >
+      //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[4]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[4]/slot/div/div/div/label
+    priority: 1
+- id: toW6C84H9USey6jJ9DdBvg
+  name: FIFTH_BRAND_MANAGED_SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[5]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[5]/slot/div/div/div/label
+    priority: 1
+- id: HN5SfNqp_ECgZJdH1Hhv2A
+  name: SIXT BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: >
+      //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[6]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[6]/slot/div/div/div/label
+    priority: 1
+- id: Dk_ckT6xNEmu-TjInHjaDQ
+  name: SEVENTH BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[7]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[7]/slot/div/div/div/label
+    priority: 1
+- id: XHrSu78Mjku1cqEJ6ydgMw
+  name: EIGHT BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: >
+      //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[8]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[8]/slot/div/div/div/label
+    priority: 1
+- id: wCVa-Gl1e0CCE6RkSNzaGQ
+  name: NINTH BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: >
+      //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[9]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[9]/slot/div/div/div/label
+    priority: 1
+- id: Eg3hnHLYC0-t0DMQoCsMeA
+  name: TENTH BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: >
+      //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[10]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[10]/slot/div/div/div/label
+    priority: 1
+- id: 18fxMpQCw0eCOAFzxaTtsw
+  name: ELEVENTH BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: >
+      //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[11]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[11]/slot/div/div/div/label
+    priority: 1
+- id: 1aFVD2duHUK1yjIPrCDGqA
+  name: TWELFTH BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[12]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[12]/slot/div/div/div/label
+    priority: 1
+- id: Sa9bkKhJ1EO04oxqiYeMig
+  name: THIRT BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[13]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[13]/slot/div/div/div/label
+    priority: 1
+- id: ckrayNCXxUGzRZUUIW-DGw
+  name: FOURTEENTH BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: >
+      //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[14]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[14]/slot/div/div/div/label
+    priority: 1
+- id: FDpRL6lGd0KazUfF3DhEWA
+  name: FIFTEENTH BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: >
+      //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[15]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[15]/slot/div/div/div/label
+    priority: 1
+- id: gLCvRtn8QUSa2aPTfOnlYg
+  name: SIXTEENTH BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[16]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[16]/slot/div/div/div/label
+    priority: 1
+- id: 5jVxvv0Bpk2AumbmoaIIJg
+  name: SEVENTEENTH BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: >
+      //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[17]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[17]/slot/div/div/div/label
+    priority: 1
+- id: k0VT8HtuCkaWiFwHD11Iug
+  name: EIGHTEENTH BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[18]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[18]/slot/div/div/div/label
+    priority: 1
+- id: NOKJQs4owkCzknyGJVfV8Q
+  name: NINETEENTH BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[19]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[19]/slot/div/div/div/label
+    priority: 1
+- id: X2oeSNdDh0KgmO1yWSXZsQ
+  name: TWENTIETH BRAND MANAGED SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[20]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[20]/slot/div/div/div/label
+    priority: 1
+- id: rZqniGH1ZUukJE5e0VoBkg
+  name: TWENNTY FIRST MANAGED BRAND SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[21]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[21]/slot/div/div/div/label
+    priority: 1
+- id: TTcChQWavEWN_aI6Ngs55Q
+  name: TWENTY SECOND MANAGED BRAND SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[22]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[22]/slot/div/div/div/label
+    priority: 1
+- id: y3R4VA55WE2_hhuSq131ZA
+  name: TWENTY_THIRD_MANAGED_BRAND_SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[23]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[23]/slot/div/div/div/label
+    priority: 1
+- id: ep2ywbAYK0aHhPx12iCbZQ
+  name: TWENTY FORTH MANAGED BRAND SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[24]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[24]/slot/div/div/div/label
+    priority: 1
+- id: ThlgwDawzkW7IQSGtcYtyA
+  name: TWENTY FIFTH MANAGED BRAND SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[25]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[25]/slot/div/div/div/label
+    priority: 1
+- id: WmvHnbzvd0ye0BPbuBQ2bg
+  name: TWENTY SIXTH MANAGED BRAND SLOT
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[26]//label
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[3]/div/*[name()='app_flexipage-lwc-app-flexipage']/*[name()='app_flexipage-lwc-app-flexipage-decorator']/slot/*[name()='app_flexipage-lwc-app-flexipage-internal']/*[name()='forcegenerated-adg-rollup_component___force-generated__flexipage_-app-page___-s-f-a_-catalog-page']/*[name()='forcegenerated-flexipage_sfa_catalogpage__js']/flexipage-lwc-default-app-home-template/div/div/slot/flexipage-component2/slot/*[name()='c-sfa_-context']/*[name()='c-sfa_catalog-access_landing']/div/div[2]/div/div/div[2]/div[1]/lightning-layout[2]/slot/lightning-layout-item/slot/div/lightning-layout/slot/lightning-layout-item[26]/slot/div/div/div/label
+    priority: 1
+projectParameters: []
+addons: []
